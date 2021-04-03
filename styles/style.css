@@ -46,10 +46,10 @@ header h1 {
 
 /*      =====   MAIN    =====      */
 
-
-#aboutMe {
-    border-bottom: 1px black solid;
-    padding: 30px 0;
+section {
+    width: 100%;
+    padding: 20px 0 80px;
+    border-bottom: 1px #0000001f solid;
 }
 
 main h2 {
@@ -74,21 +74,20 @@ main p {
     text-align: justify;
 }
 
-#someProjects {
-    border-bottom: 1px black solid;
-    padding: 50px 0;
-    width: 100%;
-}
+
+
+
 
 /*      =====   FOOTER    =====      */
 
 footer {
     background-color: black;
     color: white;
+    padding: 30px 0;
 }
 
 footer h2 {
-    margin: 30px 0 50px;
+    margin: 0 0 30px 0;
     font-size: 2.5rem;
 }
 
@@ -97,7 +96,9 @@ footer ul {
     padding: 0;
     font-size: 2rem;
     list-style-type: none;
+    text-align: center;
 }
+
 footer a {
     color: white;
     text-decoration: none;
@@ -110,7 +111,7 @@ footer a {
     /*      =====   GENERAL STYLES    =====      */
     
     .notMobile {
-        display: block;
+        display: flex;
     }
     
     .mobile {
@@ -118,7 +119,7 @@ footer a {
     }
     
     .container {
-        padding: 0 60px;
+        padding: 0 100px;
     }
 
     .button {
@@ -131,55 +132,64 @@ footer a {
 
     /*      =====   HEADER    =====      */
     
+    header .container {
+        padding: 0 20px;
+    }
+
     header ul {
-        color: white;
         margin: 0;
-        padding: 0;
-        display: flex;
+
     }
     
     header li {
-        font-size: 1.5rem;
-        padding: 15px 15px;
+        font-size: 1.3rem;
+        padding: 30px 20px;
         list-style-type: none;
     }
     
     
     /*      =====   MAIN    =====      */
     
+    section {
+    padding: 10px 0 30px;
+    }
+
     main h2 {
         font-size: 2rem;
         text-align: left;
     }
     main ul {
     font-size: 1.2rem;
-}
+    }
 
-main p {
+    main p {
     font-size: 1.2rem;
-}
+    }
+
+    .buttons {
+        display: flex;
+    }
 
 /*      =====   FOOTER    =====      */
 
-footer .container {
-    display: block;
-}
+    footer .container {
+        display: block;
+    }
 
-footer h2 {
-    font-size: 2rem;
-    /* margin: auto; */
-    text-align: left;
-}
+    footer h2 {
+        font-size: 2rem;
+        text-align: left;
+    }
 
-footer ul {
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
-}
+    footer ul {
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+    }
 
-footer li {
-    padding: 10px;
-}
+    footer li {
+        padding: 10px;
+    }
 
 
 
