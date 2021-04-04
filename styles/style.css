@@ -1,6 +1,24 @@
+/*      =====   VARIABLE    =====      */
+
+:root {
+    --mainBackgrounColor: white;
+    --secondaryBackgroundColor: black;
+    --mainTextColor: black;
+    --secondaryTextColor: white;
+    --buttonBackgroundColor: black;
+    --buttonLightBackgroundColor: #272727;
+    --buttonTextColor: white;
+
+    --largeFontSize: 2.5rem;
+    --mediumFontSize: 1.8rem;
+    --smallFontSize: 1.5rem;
+}
+
+
 /*      =====   GENERAL STYLES    =====      */
 body {
     margin: 0;
+    background-color: var(--mainBackgrounColor);
 }
 
 .container {
@@ -16,14 +34,14 @@ body {
 }
 
 a {
-    color: white;
+    color: var(--secondaryTextColor);
     text-decoration: none;
 }
 
 .button {
-    background-color: black;
-    color: white;
-    font-size: 1.8rem;
+    background-color: var(--secondaryBackgroundColor);
+    color: var(--secondaryTextColor);
+    font-size: var(--mediumFontSize);
     font-weight: 700;
     width: 100%;
     height: 80px;
@@ -34,8 +52,8 @@ a {
 
 /*      =====   HEADER    =====      */
 header {
-    background-color: black;
-    color: white;
+    background-color: var(--secondaryBackgroundColor);
+    color: var(--secondaryTextColor);
 }
 
 
@@ -46,7 +64,7 @@ header .container {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: var(--largeFontSize);
 }
 
 /*      =====   MAIN    =====      */
@@ -58,13 +76,13 @@ section {
 }
 
 main h2 {
-    font-size: 2.5rem;
+    font-size: var(--largeFontSize);
     margin: 0 0 50px 0;
     text-align: center;
 }
 
 main ul {
-    font-size: 1.5rem;
+    font-size: var(--smallFontSize);
     list-style-type: square;
     text-align: left;
     margin: 0 auto 0 0;
@@ -75,7 +93,7 @@ main li {
 }
 
 main p {
-    font-size: 1.5rem;
+    font-size: var(--smallFontSize);
     text-align: justify;
 }
 
@@ -83,20 +101,20 @@ main p {
 /*      =====   FOOTER    =====      */
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--secondaryBackgroundColor);
+    color: var(--secondaryTextColor);
     padding: 30px 0;
 }
 
 footer h2 {
     margin: 0 0 30px 0;
-    font-size: 2.5rem;
+    font-size: var(--largeFontSize);
 }
 
 footer ul {
     margin: 0;
     padding: 0;
-    font-size: 2rem;
+    font-size: var(--mediumFontSize);
     list-style-type: none;
     text-align: center;
 }
@@ -109,7 +127,14 @@ footer ul {
 /*      =====   RESPONSIVENESS    =====      */
 
 @media(min-width:768px) {
-    
+
+/*      =====   VARIABLE    =====      */
+
+:root {
+    --largeFontSize: 2rem;
+    --mediumFontSize: 1.3rem;
+    --smallFontSize: 1.2rem;
+}
     /*      =====   GENERAL STYLES    =====      */
     
     .notMobile {
@@ -125,7 +150,6 @@ footer ul {
     }
 
     .button {
-        font-size: 1.3rem;
         width: 350px;
         height: 60px;
         display: block;
@@ -144,7 +168,7 @@ footer ul {
     }
     
     header li {
-        font-size: 1.3rem;
+        font-size: var(--mediumFontSize);
         list-style-type: none;
     }
 
@@ -164,15 +188,7 @@ footer ul {
     }
 
     main h2 {
-        font-size: 2rem;
         text-align: left;
-    }
-    main ul {
-    font-size: 1.2rem;
-    }
-
-    main p {
-    font-size: 1.2rem;
     }
 
     .buttons {
@@ -186,12 +202,10 @@ footer ul {
     }
 
     footer h2 {
-        font-size: 2rem;
         text-align: left;
     }
 
     footer ul {
-        font-size: 1.3rem;
         display: flex;
         justify-content: center;
     }
@@ -202,14 +216,16 @@ footer ul {
 
 /*      =====   ANIMATIONS    =====      */
 header li a:hover {
-    background-color: #272727;
+    background-color: var(--buttonLightBackgroundColor);
     transition: .3s;
 }
 
 .button:hover {
-    background-color: #272727;
+    background-color: var(--buttonLightBackgroundColor);
     transition: .3s;
     cursor: pointer;
-
 }
+
+
+
 }
