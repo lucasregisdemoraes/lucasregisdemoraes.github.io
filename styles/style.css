@@ -15,6 +15,11 @@ body {
     display: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .button {
     background-color: black;
     color: white;
@@ -75,9 +80,6 @@ main p {
 }
 
 
-
-
-
 /*      =====   FOOTER    =====      */
 
 footer {
@@ -99,10 +101,10 @@ footer ul {
     text-align: center;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
-}
+/*      =====   ANIMATIONS    =====      */
+
+
+
 
 /*      =====   RESPONSIVENESS    =====      */
 
@@ -138,13 +140,20 @@ footer a {
 
     header ul {
         margin: 0;
-
+        padding: 0;
     }
     
     header li {
         font-size: 1.3rem;
-        padding: 30px 20px;
         list-style-type: none;
+    }
+
+    header li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85px;
+        width: 130px;
     }
     
     
@@ -191,6 +200,16 @@ footer a {
         padding: 10px;
     }
 
+/*      =====   ANIMATIONS    =====      */
+header li a:hover {
+    background-color: #272727;
+    transition: .3s;
+}
 
+.button:hover {
+    background-color: #272727;
+    transition: .3s;
+    cursor: pointer;
 
+}
 }
