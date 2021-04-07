@@ -125,8 +125,23 @@ footer ul {
     text-align: center;
 }
 
+footer li{
+    margin: 30px 0 100px;
+}
+
+footer img {
+    height: 150px;
+
+    display: block;
+    margin: auto;
+}
+
 /*      =====   ANIMATIONS    =====      */
 
+footer img:hover {
+    transform: scale(1.2) translateY(-15px);
+    transition: .3s;
+}
 
 
 
@@ -217,8 +232,14 @@ footer ul {
     }
 
     footer li {
-        padding: 10px;
+        margin: 0 40px;
     }
+
+    
+    footer img {
+        height: 80px;
+    }
+    
 
 /*      =====   ANIMATIONS    =====      */
 header li a:hover {
