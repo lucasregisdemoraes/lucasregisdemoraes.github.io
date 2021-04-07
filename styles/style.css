@@ -19,6 +19,7 @@
 body {
     margin: 0;
     background-color: var(--mainBackgrounColor);
+    font-family: sans-serif;
 }
 
 .container {
@@ -73,6 +74,11 @@ section {
     width: 100%;
     padding: 20px 0 80px;
     border-bottom: 1px #0000001f solid;
+}
+
+main h1 {
+    font-size: calc(var(--largeFontSize) + 0.8rem);
+    text-align: center;
 }
 
 main h2 {
@@ -184,7 +190,7 @@ footer ul {
     /*      =====   MAIN    =====      */
     
     section {
-    padding: 10px 0 30px;
+    padding: 20px 0 30px;
     }
 
     main h2 {
