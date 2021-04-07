@@ -8,6 +8,7 @@
     --buttonBackgroundColor: black;
     --buttonLightBackgroundColor: #272727;
     --buttonTextColor: white;
+    --linkColor: #9b9b9b;
 
     --largeFontSize: 2.5rem;
     --mediumFontSize: 1.8rem;
@@ -96,6 +97,9 @@ main ul {
 
 main li {
     margin: 20px 0;
+}
+main a {
+    color: var(--linkColor);
 }
 
 main p {
