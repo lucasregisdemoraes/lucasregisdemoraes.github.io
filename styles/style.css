@@ -3,12 +3,18 @@
 :root {
     --mainBackgrounColor: white;
     --secondaryBackgroundColor: black;
+
     --mainTextColor: black;
     --secondaryTextColor: white;
+
     --buttonBackgroundColor: black;
-    --buttonLightBackgroundColor: #272727;
+    --buttonLightBackgroundColor: #d1d1d1;
+    --buttonSecondaryBackgroundColor: #464646;
+    --secondaryButtonTextColor: black;
     --buttonTextColor: white;
-    --linkColor: #9b9b9b;
+    
+    --linkColor: #707070;
+    --secondaryLinkColor: black;
 
     --largeFontSize: 2.5rem;
     --mediumFontSize: 1.8rem;
@@ -92,12 +98,12 @@ main ul {
     font-size: var(--smallFontSize);
     list-style-type: square;
     text-align: left;
-    margin: 0 auto 0 0;
 }
 
 main li {
-    margin: 20px 0;
+    margin: 40px 0;
 }
+
 main a {
     color: var(--linkColor);
 }
@@ -105,6 +111,9 @@ main a {
 main p {
     font-size: var(--smallFontSize);
     text-align: justify;
+    line-height: 2rem ;
+    margin: 0 0 30px 0;
+
 }
 
 
@@ -145,6 +154,10 @@ footer img {
 footer img:hover {
     transform: scale(1.2) translateY(-15px);
     transition: .3s;
+}
+
+main a:hover {
+    color: var(--secondaryLinkColor);
 }
 
 
@@ -247,12 +260,13 @@ footer img:hover {
 
 /*      =====   ANIMATIONS    =====      */
 header li a:hover {
-    background-color: var(--buttonLightBackgroundColor);
+    background-color: var(--buttonSecondaryBackgroundColor);
     transition: .3s;
 }
 
 .button:hover {
     background-color: var(--buttonLightBackgroundColor);
+    color: var(--secondaryButtonTextColor);
     transition: .3s;
     cursor: pointer;
 }
