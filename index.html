@@ -6,96 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Regis de Moraes</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="container">
-            <h1><a href="https://lucasregisdemoraes.github.io/">Lucas</a></h1>
-            <p class="mobile"><a href="">Menu</a></p>
-            <ul class="notMobile">
-                <li><a href="">Portfólio</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="aboutMe.html">Sobre</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <h2><a href="#home">Lucas</a></h2>
+                <div class="menu">
+                    <div class="hamburguer-menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="close-menu"></div>
+                    <ul class="menu-options">
+                        <li><a href="https://github.com/lucasregisdemoraes" target="_blank">GitHub</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                        <li><a href="./pages/aboutMe.html">Sobre</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class="container">
-            <section id="aboutMe">
-                <h1>Lucas Regis de Moraes</h1>
-                <h2>Sobre mim</h2>
+        <section id="home">
+            <div class="container">
+                <h1>Olá, eu sou o Lucas</h1>
+                <h2>Desenvolvedor web e mobile</h2>
+            </div>
+        </section>
+
+        <section id="knowledge">
+            <div class="container">
+                <h2>Meus Conhecimentos</h2>
                 <ul>
-                    <li>Tenho 18 anos</li>
-                    <li>Planejo trabalhar como Freelancer</li>
-                    <li>Estou estudando:</li>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React Native</li>
                 </ul>
-                <button class="button" onclick="window.location.href = '/aboutMe.html'">Saiba mais sobre mim</button>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="container">
-
-            <section id="someChallenges">
-                <h2>Alguns Desafios Concluídos por mim</h2>
+        <section id="portifolio">
+            <div class="container">
+                <h2>Portifólio</h2>
                 <ul>
-                    <li><a href="https://lucasregisdemoraes.github.io/Blogr-landing-page/"
-                        target="_blank">Blogr - Frontend Mentor</a></li>
-                    <li><a href="https://lucasregisdemoraes.github.io/DevChallenge-desafios-concluidos/challenges/selfcare/index.html"
-                            target="_blank">selfcare - DevChallenge</a></li>
-                    <li><a href="https://lucasregisdemoraes.github.io/DevChallenge-desafios-concluidos/challenges/codar/index.html"
-                            target="_blank">Codar. - DevChallenge</a></li>
+                    <li><a href="https://lucasregisdemoraes.github.io/DevChallenge-desafios-concluidos">Desafios do
+                            DevChallenge</a></li>
+                    <li><a href="https://lucasregisdemoraes.github.io/devfinances">DevFinance$ - Maratona Discover</a>
+                    </li>
+                    <li><a href="https://lucasregisdemoraes.github.io/beauty-salon">BeautySaloon - OriginSix</a></li>
+                    <li><a href="https://lucasregisdemoraes.github.io/Blogr-landing-page">Blogr landing page - Frontend
+                            Mentor</a></li>
                 </ul>
-                <div class="buttons">
-                    <button class="button"
-                        onclick="window.location.href = 'https://lucasregisdemoraes.github.io/DevChallenge-desafios-concluidos'">Desafios
-                        do DevChallenge</button>
-                    <button class="button" onclick="window.location.href = 'https://github.com/lucasregisdemoraes'">Meu
-                        GitHub</button>
-                </div>
-            </section>
-        </div>
 
-        <div class="container">
-
-            <section id="someProjects">
-                <h2>Alguns dos meus Projetos</h2>
-                <ul>
-                    <li><a href="">PokeBattle</a></li>
-                </ul>
-                <div class="buttons">
-                    <button class="button" onclick="window.location.href = 'https://github.com/lucasregisdemoraes'">Meu GitHub</button>
-                    <button class="button" onclick="window.location.href = 'https://codepen.io/LucasGRM'">Meu CodePen</button>
-                </div>
-            </section>
-        </div>
+                <a href="https://github.com/lucasregisdemoraes" class="button">GitHub</a>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="container">
-            <h2>Contato</h2>
+            <h2 id="contact">Contato</h2>
             <ul>
                 <li>
                     <a href="https://github.com/lucasregisdemoraes" target="_blank"><img
-                            src="assets/social-medias/example2.png" alt="Github"></a>
+                            src="assets/social-medias/github.svg" alt="Github"></a>
                 </li>
                 <li>
-                    <a href="https://codepen.io/LucasGRM" target="_blank"><img src="assets/social-medias/example2.png"
+                    <a href="https://codepen.io/LucasGRM" target="_blank"><img src="assets/social-medias/codepen.svg"
                             alt="CodePen"></a>
                 </li>
-                <!-- <li
-                ><a href=""><img src="assets/social-medias/example2.png" alt="LinkedIn"></a>
-            </li> -->
+                <li>
+                    <a href="https://www.linkedin.com/in/lucas-regis-55597921b" target="_blank"><img src="assets/social-medias/linkedin.svg" alt="LinkedIn"></a>
+                </li>
             </ul>
         </div>
     </footer>
+
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
