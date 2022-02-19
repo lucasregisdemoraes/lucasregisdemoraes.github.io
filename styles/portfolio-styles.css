@@ -1,0 +1,269 @@
+/*      =====   GENERAL STYLES    =====      */
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+p,
+a,
+ul {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: min(85vw, 600px);
+    margin: 0 auto;
+}
+
+.desktop-only {
+    display: none;
+}
+
+
+/*      =====   HEADER    =====      */
+
+header {
+    background-color: #000;
+    clip-path: polygon(0 100%, 100% 70%, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0 100%, 100% 70%, 100% 0, 0 0);
+}
+
+header .container .header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .header .logo a {
+    color: white;
+    font-size: 30px;
+    transition: filter .3s
+}
+
+header .container .header .logo a:hover {
+    filter: opacity(.7);
+}
+
+header .container .header .hamburguer-menu {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    cursor: pointer;
+    transition: filter .3s;
+}
+
+header .container .header .hamburguer-menu.active {
+    filter: opacity(.8);
+}
+
+header .container .header .hamburguer-menu:hover {
+    filter: opacity(.5);
+}
+
+header .container .header .hamburguer-menu div {
+    background-color: white;
+    height: 6px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+header .container nav .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0px;
+    transition: height .5s, padding 1s;
+}
+
+header .container nav .menu.show {
+    height: 600px;
+    padding-top: 50px;
+}
+
+header .container nav .menu li {
+    margin: 10px 0;
+    position: relative;
+}
+
+header .container nav .menu li a,
+header .container nav .menu li span {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    transition: filter .3s;
+}
+
+header .container nav .menu li::after {
+    content: "";
+    background-color: white;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    transition: .5s
+}
+
+header .container nav .menu li:hover::after {
+    width: 100%;
+    right: 0%;
+    height: 5px;
+}
+
+/*      =====   MAIN    =====      */
+
+main .container {
+    padding: 150px 0;
+}
+
+/*      =====   FOOTER    =====      */
+
+footer {
+    background-color: #000;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 30%);
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 30%);
+}
+
+footer .container {
+    padding: 100px 0;
+}
+
+footer .container h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+footer .container ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer .container ul li a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    transition: filter .5s;
+}
+
+footer .container ul li a:hover {
+    filter: opacity(.6);
+}
+
+/*      =====   RESPONSIVENESS    =====      */
+
+@media screen and (min-width: 767px) {
+    /*      =====   GENERAL STYLES    =====      */
+
+    .container {
+        width: min(85vw, 800px)
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+
+    /*      =====   HEADER    =====      */
+
+    header {
+        clip-path: none;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between
+    }
+
+    header .container .header .hamburguer-menu {
+        display: none;
+    }
+
+    header .container nav {
+        display: flex;
+        align-items: center;
+    }
+
+    header .container nav .menu,
+    header .container nav .menu.show {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+
+    header .container nav .menu .portfolio-option {
+        cursor: pointer;
+    }
+
+    header .container nav .menu .portfolio-options {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 18px;
+        z-index: 10;
+        padding: 25px 10px;
+        visibility: hidden;
+        height: 0px;
+        transition: height .5s;
+    }
+
+    header .container nav .menu .portfolio-options.show {
+        height: 106px;
+        visibility: visible;
+    }
+
+    header .container nav .menu li {
+        margin: 0 8.5px;
+    }
+
+    header .container nav .menu li a,
+    header .container nav .menu li span {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    header .container nav .menu li::after {
+        bottom: -3px;
+        left: 0;
+        transition: .3s
+    }
+
+    header .container nav .menu li:hover::after {
+        height: 2px;
+    }
+
+    /*      =====   FOOTER    =====      */
+
+    footer .container {
+        padding: 150px 0;
+    }
+
+    footer .container h2 {
+        text-align: left;
+    }
+
+    footer .container ul {
+        margin-top: 150px;
+    }
+}
