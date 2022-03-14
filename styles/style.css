@@ -26,7 +26,7 @@ body {
     font-family: sans-serif;
 }
 
-body.not-scroll {
+body.open-menu {
     overflow-y: hidden;
 }
 
@@ -273,6 +273,10 @@ footer .container li a {
 /*      =====   RESPONSIVENESS    =====      */
 @media screen and (min-width: 767px) {
     /*      =====   GENERAL STYLES    =====      */
+    body.open-menu {
+        overflow-y: auto;
+    }
+    
     .container {
         width: min(85vw, 900px);
     }
@@ -286,6 +290,10 @@ footer .container li a {
         display: none;
     }
 
+    header nav .close-menu.show {
+        display: none;
+    }
+
     header nav .menu .menu-options {
         display: flex;
         position: initial;
@@ -293,6 +301,10 @@ footer .container li a {
         width: auto;
         background-color: transparent;
         gap: 30px;
+    }
+
+    header nav .menu .menu-options.show {
+        flex-direction: row;
     }
 
     header nav .menu .menu-options li a {

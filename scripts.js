@@ -12,11 +12,11 @@ toggleMenuItens.forEach(e => {
 function toggleMenu() {
     closeMenu.classList.toggle('show')
     menuOptions.classList.toggle('show')
-    body.classList.toggle('not-scroll')
+    body.classList.toggle('open-menu')
 }
 
 contactMenuItem.addEventListener('click', () => {
     closeMenu.classList.remove('show')
     menuOptions.classList.remove('show')
-    body.classList.remove('not-scroll')
+    body.classList.remove('open-menu')
 })
