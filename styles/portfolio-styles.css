@@ -207,6 +207,7 @@ footer .container ul li a:hover {
         display: flex;
         flex-direction: row;
         height: auto;
+        padding-top: 0;
     }
 
     header .container nav .menu .portfolio-option {
