@@ -13,7 +13,7 @@ ul {
     font-family: sans-serif;
 }
 
-a {
+a, abbr {
     text-decoration: none;
 }
 
@@ -127,6 +127,72 @@ header .container nav .menu li:hover::after {
 
 main .container {
     padding: 150px 0;
+}
+
+main .container #portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 200px;
+}
+
+main .container #portfolio-list .portfolio-item {
+    text-align: center;
+    width: min(100%, 400px);
+}
+
+main .container #portfolio-list li h2 {
+    font-size: 30px;
+}
+
+main .container #portfolio-list li p {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0 15px 0;
+}
+
+main .container #portfolio-list li .img-div {
+    overflow: hidden;
+}
+
+main .container #portfolio-list li img {
+    width: 100%;
+    height: 500px;
+    transition: transform .5s;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+main .container #portfolio-list li img:hover {
+    transform: scale(1.15);
+}
+
+main .container #portfolio-list li .tags {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+main .container #portfolio-list li .tags .tag {
+    font-weight: 700;
+    border: #777 1px solid;
+    border-radius: 20px;
+}
+
+main .container #portfolio-list li .tags .tag a {
+    transition: filter .2s;
+}
+
+main .container #portfolio-list li .tags .tag a:hover {
+    filter: brightness(1.4);
+}
+
+main .container #portfolio-list li .tags .tag abbr {
+    color: #777;
+    display: inline-block;
+    padding: 5px;
 }
 
 /*      =====   FOOTER    =====      */
@@ -252,6 +318,16 @@ footer .container ul li a:hover {
 
     header .container nav .menu li:hover::after {
         height: 2px;
+    }
+
+    /*      =====   MAIN    =====      */
+    main .container #portfolio-list {
+        column-gap: 50px;
+        justify-content: space-around;
+    }
+    
+    main .container #portfolio-list .portfolio-item {
+        width: 350px;
     }
 
     /*      =====   FOOTER    =====      */
