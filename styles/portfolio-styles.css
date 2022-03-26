@@ -161,6 +161,7 @@ main .container #portfolio-list li img {
     transition: transform .5s;
     cursor: pointer;
     object-fit: cover;
+    object-position: top;
 }
 
 main .container #portfolio-list li img:hover {
