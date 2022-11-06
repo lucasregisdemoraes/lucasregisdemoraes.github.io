@@ -2,16 +2,16 @@ export default [
     {
         title: "Blogr",
         description: "Landing Page de uma plataforma de publicação",
-        link: "https://lucasregisdemoraes.github.io/Blogr-landing-page/",
+        link: "https://lucasregisdemoraes.github.io/blogr/",
         previewImage: "./assets/web-development-assets/Blogr-landing-page.png",
         tags: [
             {
-                link: "https://lucasregisdemoraes.github.io/Blogr-landing-page/",
+                link: "https://lucasregisdemoraes.github.io/blogr/",
                 abbrTitle: "Página na internet",
                 abbrContent: "Página"
             },
             {
-                link: "https://github.com/lucasregisdemoraes/Blogr-landing-page",
+                link: "https://github.com/lucasregisdemoraes/blogr",
                 abbrTitle: "Página do projeto no GitHub",
                 abbrContent: "GitHub"
             },
@@ -25,16 +25,16 @@ export default [
     {
         title: "DevChallenge - Desafios Concluídos",
         description: "Desafios do DevChallenge concluídos por mim ",
-        link: "https://lucasregisdemoraes.github.io/DevChallenge-desafios-concluidos/",
+        link: "https://lucasregisdemoraes.github.io/devchallenge",
         previewImage: "./assets/web-development-assets/DevChallenge-desafios-concluidos.png",
         tags: [
             {
-                link: "https://lucasregisdemoraes.github.io/DevChallenge-desafios-concluidos/",
+                link: "https://lucasregisdemoraes.github.io/devchallenge",
                 abbrTitle: "Página na internet",
                 abbrContent: "Página"
             },
             {
-                link: "https://github.com/lucasregisdemoraes/DevChallenge-desafios-concluidos",
+                link: "https://github.com/lucasregisdemoraes/devchallenge",
                 abbrTitle: "Página do projeto no GitHub",
                 abbrContent: "GitHub"
             },
@@ -114,16 +114,16 @@ export default [
     {
         title: "Spotify",
         description: "Clone do Spotify",
-        link: "https://lucasregisdemoraes.github.io/spotify-clone/",
+        link: "https://lucasregisdemoraes.github.io/spotify",
         previewImage: "./assets/web-development-assets/Spotify.png",
         tags: [
             {
-                link: "https://lucasregisdemoraes.github.io/spotify-clone/",
+                link: "https://lucasregisdemoraes.github.io/spotify",
                 abbrTitle: "Página na internet",
                 abbrContent: "Página"
             },
             {
-                link: "https://github.com/lucasregisdemoraes/spotify-clone",
+                link: "https://github.com/lucasregisdemoraes/spotify",
                 abbrTitle: "Página do projeto no GitHub",
                 abbrContent: "GitHub"
             },
@@ -158,44 +158,22 @@ export default [
     {
         title: "Huddle",
         description: "Landing Page de uma plataforma para criação de comunidades",
-        link: "https://lucasregisdemoraes.github.io/huddle-landing-page/",
+        link: "https://lucasregisdemoraes.github.io/huddle",
         previewImage: "./assets/web-development-assets/Huddle.png",
         tags: [
             {
-                link: "https://lucasregisdemoraes.github.io/huddle-landing-page/",
+                link: "https://lucasregisdemoraes.github.io/huddle",
                 abbrTitle: "Página na internet",
                 abbrContent: "Página"
             },
             {
-                link: "https://github.com/lucasregisdemoraes/huddle-landing-page",
+                link: "https://github.com/lucasregisdemoraes/huddle",
                 abbrTitle: "Página do projeto no GitHub",
                 abbrContent: "GitHub"
             },
             {
                 abbrTitle: "Baseado em um projeto do Frontend Mentor",
                 abbrContent: "Frontend Mentor"
-            }
-        ]
-    },
-    {
-        title: "rocket.q",
-        description: "Plataforma para gerenciamento de perguntas",
-        link: "https://lucasregisdemoraes.github.io/NLW6-rocketq/",
-        previewImage: "./assets/web-development-assets/RocketQ.png",
-        tags: [
-            {
-                link: "https://lucasregisdemoraes.github.io/NLW6-rocketq/",
-                abbrTitle: "Página na internet",
-                abbrContent: "Página"
-            },
-            {
-                link: "https://github.com/lucasregisdemoraes/NLW6-rocketq",
-                abbrTitle: "Página do projeto no GitHub",
-                abbrContent: "GitHub"
-            },
-            {
-                abbrTitle: "Baseado em um evento da Rocketseat",
-                abbrContent: "Rocketseat"
             }
         ]
     }
