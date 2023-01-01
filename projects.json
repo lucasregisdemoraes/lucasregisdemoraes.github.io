@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Blogr",
+        "description": "Landing Page de uma plataforma de publicação",
+        "link": "https://lucasregisdemoraes.github.io/blogr/",
+        "previewImage": "./assets/web-development-assets/Blogr-landing-page.png",
+        "tags": [
+            {
+                "link": "https://lucasregisdemoraes.github.io/blogr/",
+                "abbrTitle": "Página na internet",
+                "abbrContent": "Página"
+            },
+            {
+                "link": "https://github.com/lucasregisdemoraes/blogr",
+                "abbrTitle": "Página do projeto no GitHub",
+                "abbrContent": "GitHub"
+            },
+            {
+                "link": "https://www.frontendmentor.io/",
+                "abbrTitle": "Baseado em um projeto do Frontend Mentor",
+                "abbrContent": "Frontend Mentor"
+            }
+        ]
+    }
+]

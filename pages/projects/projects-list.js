@@ -19,11 +19,15 @@ export default [
                 link: "https://www.frontendmentor.io/",
                 abbrTitle: "Baseado em um projeto do Frontend Mentor",
                 abbrContent: "Frontend Mentor"
+            },
+            {
+                abbrTitle: "Utilizado HTML, CSS e JS",
+                abbrContent: "HTML, CSS e JS"
             }
         ]
     },
     {
-        title: "DevChallenge - Desafios Concluídos",
+        title: "DevChallenge",
         description: "Desafios do DevChallenge concluídos por mim ",
         link: "https://lucasregisdemoraes.github.io/devchallenge",
         previewImage: "./assets/web-development-assets/DevChallenge-desafios-concluidos.png",
