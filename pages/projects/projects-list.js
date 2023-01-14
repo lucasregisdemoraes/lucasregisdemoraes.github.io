@@ -3,7 +3,7 @@ export default [
         title: "Blogr",
         description: "Landing Page de uma plataforma de publicação",
         link: "https://lucasregisdemoraes.github.io/blogr/",
-        previewImage: "./assets/web-development-assets/Blogr-landing-page.png",
+        previewImage: "../assets/preview/blogr.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/blogr/",
@@ -30,7 +30,7 @@ export default [
         title: "DevChallenge",
         description: "Desafios do DevChallenge concluídos por mim ",
         link: "https://lucasregisdemoraes.github.io/devchallenge",
-        previewImage: "./assets/web-development-assets/DevChallenge-desafios-concluidos.png",
+        previewImage: "../assets/preview/devchallenge.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/devchallenge",
@@ -53,7 +53,7 @@ export default [
         title: "Kenziegram",
         description: "Clone do Instagram",
         link: "https://lucasregisdemoraes.github.io/kenziegram/",
-        previewImage: "./assets/web-development-assets/Kenziegram.png",
+        previewImage: "../assets/preview/kenziegram.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/kenziegram/",
@@ -75,7 +75,7 @@ export default [
         title: "BeautySalon",
         description: "Landing Page para um salão de beleza",
         link: "https://lucasregisdemoraes.github.io/beauty-salon/",
-        previewImage: "./assets/web-development-assets/Beautysalon.png",
+        previewImage: "../assets/preview/beauty-salon.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/beauty-salon/",
@@ -97,7 +97,7 @@ export default [
         title: "Certificard",
         description: "Certificado de conclusão da imersão dev - Alura",
         link: "https://lucasregisdemoraes.github.io/certificard/",
-        previewImage: "./assets/web-development-assets/Certificard.png",
+        previewImage: "../assets/preview/certificard.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/certificard/",
@@ -119,7 +119,7 @@ export default [
         title: "Spotify",
         description: "Clone do Spotify",
         link: "https://lucasregisdemoraes.github.io/spotify",
-        previewImage: "./assets/web-development-assets/Spotify.png",
+        previewImage: "../assets/preview/spotify.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/spotify",
@@ -141,7 +141,7 @@ export default [
         title: "dev.finance$",
         description: "Site para gerenciamento das finanças",
         link: "https://lucasregisdemoraes.github.io/devfinances/",
-        previewImage: "./assets/web-development-assets/DevFinances.png",
+        previewImage: "../assets/preview/devfinances.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/devfinances/",
@@ -163,7 +163,7 @@ export default [
         title: "Huddle",
         description: "Landing Page de uma plataforma para criação de comunidades",
         link: "https://lucasregisdemoraes.github.io/huddle",
-        previewImage: "./assets/web-development-assets/Huddle.png",
+        previewImage: "../assets/preview/huddle.png",
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/huddle",
