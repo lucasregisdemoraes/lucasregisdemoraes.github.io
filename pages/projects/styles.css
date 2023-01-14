@@ -13,7 +13,8 @@ ul {
     font-family: sans-serif;
 }
 
-a, abbr {
+a,
+abbr {
     text-decoration: none;
 }
 
@@ -133,18 +134,23 @@ main .container {
     0% {
         scale: 1;
     }
+
     10% {
         scale: 1;
     }
+
     40% {
         scale: 1.15;
     }
+
     60% {
         scale: 1.15;
     }
+
     90% {
         scale: 1;
     }
+
     100% {
         scale: 1;
     }
@@ -154,9 +160,32 @@ main .container .tip {
     font-size: 22px;
     color: #555;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-top: -50px;
     animation: tip 2.5s infinite;
+}
+
+main .filter-by-div {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+main .filter-by-div p {
+    font-size: 18px;
+}
+
+main .filter-by-div select {
+    background-color: #eee;
+    border-radius: 5px;
+    border: none;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+}
+
+main .filter-by-div select:hover {
+    background-color: #ddd;
 }
 
 main .container #portfolio-list {
@@ -356,7 +385,7 @@ footer .container ul li a:hover {
         column-gap: 50px;
         justify-content: space-around;
     }
-    
+
     main .container #portfolio-list .portfolio-item {
         width: 350px;
     }
