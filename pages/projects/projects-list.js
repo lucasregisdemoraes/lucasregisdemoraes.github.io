@@ -180,5 +180,144 @@ export default [
                 abbrContent: "Frontend Mentor"
             }
         ]
+    },
+    {
+        title: "Aluratube",
+        description: "Projeto realizado na imersão React Alura",
+        link: "https://aluratube-gamma-nine.vercel.app/",
+        previewImage: "../assets/preview/aluratube.png",
+        tags: [
+            {
+                link: "https://lucasregisdemoraes.github.io/aluratube",
+                abbrTitle: "Página na internet",
+                abbrContent: "Página"
+            },
+            {
+                link: "https://github.com/lucasregisdemoraes/aluratube",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Baseado na imersão React da Alura",
+                abbrContent: "Alura"
+            }
+        ]
+    },
+    {
+        title: "My Money",
+        description: "Meu gerenciador de dinheiro pessoal",
+        link: "https://lucasregisdemoraes.github.io/my-money",
+        previewImage: "../assets/preview/my-money.png",
+        tags: [
+            {
+                link: "https://lucasregisdemoraes.github.io/my-money",
+                abbrTitle: "Página na internet",
+                abbrContent: "Página"
+            },
+            {
+                link: "https://github.com/lucasregisdemoraes/my-money",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Um projeto próprio",
+                abbrContent: "Projeto Próprio"
+            }
+        ]
+    },
+    {
+        title: "Stock Manager",
+        description: "App para gerenciamento de estoque",
+        link: "https://lucasregisdemoraes.github.io/pages/projects",
+        previewImage: "../assets/preview/default.png",
+        tags: [
+            {
+                link: "https://github.com/lucasregisdemoraes/stock-manager",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Um projeto próprio",
+                abbrContent: "Projeto Próprio"
+            }
+        ]
+    },
+    {
+        title: "To Do List",
+        description: "Uma lista de afazeres",
+        link: "https://lucasregisdemoraes.github.io/pages/projects",
+        previewImage: "../assets/preview/default.png",
+        tags: [
+            {
+                link: "https://github.com/lucasregisdemoraes/to-do-list",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Baseado em um projeto do Youtube",
+                abbrContent: "Youtube"
+            }
+        ]
+    },
+    {
+        title: "Calculadora",
+        description: "Uma calculadora com dark mode ",
+        link: "https://lucasregisdemoraes.github.io/pages/projects",
+        previewImage: "../assets/preview/default.png",
+        tags: [
+            {
+                link: "https://github.com/lucasregisdemoraes/calculator",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Baseado em um projeto do Youtube",
+                abbrContent: "Youtube"
+            }
+        ]
+    },
+    {
+        title: "7 projetos em 7 dias",
+        description: 'Projetos do evento "7 projetos em 7 dias"',
+        link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
+        previewImage: "../assets/preview/7-projetos-em-7-dias.png",
+        tags: [
+            {
+                link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
+                abbrTitle: "Página na internet",
+                abbrContent: "Página"
+            },
+            {
+                link: "https://github.com/lucasregisdemoraes/7-projetos-em-7-dias",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Baseado em um evento do Bonieky Lacerda ",
+                abbrContent: "Bonieky Lacerda "
+            }
+        ]
+    },
+    {
+        title: "RocketCoffee",
+        description: "Um cardápio de um café",
+        link: "https://lucasregisdemoraes.github.io/rocketcoffee",
+        previewImage: "../assets/preview/rocketcoffee.png",
+        tags: [
+            {
+                link: "https://lucasregisdemoraes.github.io/rocketcoffee",
+                abbrTitle: "Página na internet",
+                abbrContent: "Página"
+            },
+            {
+                link: "https://github.com/lucasregisdemoraes/rocketcoffee",
+                abbrTitle: "Página do projeto no GitHub",
+                abbrContent: "GitHub"
+            },
+            {
+                abbrTitle: "Baseado em um evento da Rocketseat",
+                abbrContent: "Rocketseat"
+            }
+        ]
     }
 ]
