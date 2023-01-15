@@ -22,11 +22,14 @@ portfolioOptions.addEventListener("mouseover", () => portfolioOptions.classList.
 portfolioOptions.addEventListener("mouseout", () => portfolioOptions.classList.remove("show"))
 
 // ==========   SHOW PROJECTS    ==========
+import projects from "./projects-list.js";
 
-// Import portfolio list items
-import items from "./projects-list.js";
+function appReload(projects) {
+    showProjects(getFilteredProjects(projects))
+    updateProjectsNumber(getFilteredProjects(projects).length)
+}
 
-function showPortfolioList(list) {
+function showProjects(list) {
     const elementPortfolioList = document.getElementById("portfolio-list")
     elementPortfolioList.innerHTML = ""
 
@@ -58,4 +61,23 @@ function showPortfolioList(list) {
         elementPortfolioList.innerHTML += elementItem
     })
 }
-showPortfolioList(items)
+
+function getFilteredProjects(projects) {
+    const filterValue = document.querySelector("#filterBy").value
+    if (filterValue !== "Todos") {
+        projects = projects.filter(project => {
+            return project.tags.find(
+                tag => tag.abbrContent === filterValue
+            ) && !""
+        })
+    }
+    return projects
+}
+
+function updateProjectsNumber(number) {
+    document.querySelector("#projects-number").textContent = number
+}
+
+document.querySelector("#filterBy").onchange = () => appReload(projects)
+
+appReload(projects)
