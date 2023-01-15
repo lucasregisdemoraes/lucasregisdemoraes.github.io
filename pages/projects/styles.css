@@ -165,16 +165,26 @@ main .container .tip {
     animation: tip 2.5s infinite;
 }
 
-main .filter-by-div {
-    text-align: right;
+main .container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
 }
 
-main .filter-by-div p {
-    font-size: 18px;
+main .container > div p {
+    font-size: 22px;
 }
 
-main .filter-by-div select {
+main .container div .filter-by-div {
+    text-align: right;
+}
+
+main .container div .filter-by-div p {
+    font-size: 20px;
+}
+
+main .container div .filter-by-div  select {
     background-color: #eee;
     border-radius: 5px;
     border: none;
@@ -184,7 +194,7 @@ main .filter-by-div select {
     font-size: 18px;
 }
 
-main .filter-by-div select:hover {
+main .container div .filter-by-div select:hover {
     background-color: #ddd;
 }
 
