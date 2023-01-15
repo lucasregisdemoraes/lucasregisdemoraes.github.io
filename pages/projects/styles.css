@@ -24,7 +24,7 @@ ul {
 }
 
 .container {
-    width: min(85vw, 600px);
+    width: min(85vw, 1000px);
     margin: 0 auto;
 }
 
@@ -304,11 +304,6 @@ footer .container ul li a:hover {
 
 @media screen and (min-width: 767px) {
     /*      =====   GENERAL STYLES    =====      */
-
-    .container {
-        width: min(85vw, 800px)
-    }
-
     .mobile-only {
         display: none;
     }
@@ -394,10 +389,11 @@ footer .container ul li a:hover {
     main .container #portfolio-list {
         column-gap: 50px;
         justify-content: space-around;
+        align-items: center;
     }
 
     main .container #portfolio-list .portfolio-item {
-        width: 350px;
+        width: 300px;
     }
 
     /*      =====   FOOTER    =====      */
