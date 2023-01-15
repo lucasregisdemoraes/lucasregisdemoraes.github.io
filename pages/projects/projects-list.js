@@ -4,6 +4,7 @@ export default [
         description: "Landing Page de uma plataforma de publicação",
         link: "https://lucasregisdemoraes.github.io/blogr/",
         previewImage: "../assets/preview/blogr.png",
+        filterBy: ["Inspirado"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/blogr/",
@@ -31,6 +32,7 @@ export default [
         description: "Desafios do DevChallenge concluídos por mim ",
         link: "https://lucasregisdemoraes.github.io/devchallenge",
         previewImage: "../assets/preview/devchallenge.png",
+        filterBy: ["Inspirado", "Coleção"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/devchallenge",
@@ -54,6 +56,7 @@ export default [
         description: "Clone do Instagram",
         link: "https://lucasregisdemoraes.github.io/kenziegram/",
         previewImage: "../assets/preview/kenziegram.png",
+        filterBy: ["Inspirado", "Evento"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/kenziegram/",
@@ -76,6 +79,7 @@ export default [
         description: "Landing Page para um salão de beleza",
         link: "https://lucasregisdemoraes.github.io/beauty-salon/",
         previewImage: "../assets/preview/beauty-salon.png",
+        filterBy: ["Inspirado", "Evento"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/beauty-salon/",
@@ -98,6 +102,7 @@ export default [
         description: "Certificado de conclusão da imersão dev - Alura",
         link: "https://lucasregisdemoraes.github.io/certificard/",
         previewImage: "../assets/preview/certificard.png",
+        filterBy: ["Inspirado", "Evento"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/certificard/",
@@ -120,6 +125,7 @@ export default [
         description: "Clone do Spotify",
         link: "https://lucasregisdemoraes.github.io/spotify",
         previewImage: "../assets/preview/spotify.png",
+        filterBy: ["Projeto Próprio", "Inspirado"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/spotify",
@@ -138,10 +144,11 @@ export default [
         ]
     },
     {
-        title: "dev.finance$",
+        title: "Dev.finance$",
         description: "Site para gerenciamento das finanças",
         link: "https://lucasregisdemoraes.github.io/devfinances/",
         previewImage: "../assets/preview/devfinances.png",
+        filterBy: ["Inspirado", "Evento"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/devfinances/",
@@ -164,6 +171,7 @@ export default [
         description: "Landing Page de uma plataforma para criação de comunidades",
         link: "https://lucasregisdemoraes.github.io/huddle",
         previewImage: "../assets/preview/huddle.png",
+        filterBy: ["Inspirado"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/huddle",
@@ -186,6 +194,7 @@ export default [
         description: "Projeto realizado na imersão React Alura",
         link: "https://aluratube-gamma-nine.vercel.app/",
         previewImage: "../assets/preview/aluratube.png",
+        filterBy: ["Inspirado", "Evento", "React"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/aluratube",
@@ -208,6 +217,7 @@ export default [
         description: "Meu gerenciador de dinheiro pessoal",
         link: "https://lucasregisdemoraes.github.io/my-money",
         previewImage: "../assets/preview/my-money.png",
+        filterBy: ["Projeto Próprio"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/my-money",
@@ -230,6 +240,7 @@ export default [
         description: "App para gerenciamento de estoque",
         link: "https://lucasregisdemoraes.github.io/pages/projects",
         previewImage: "../assets/preview/default.png",
+        filterBy: ["Projeto Próprio", "React Native"],
         tags: [
             {
                 link: "https://github.com/lucasregisdemoraes/stock-manager",
@@ -247,6 +258,7 @@ export default [
         description: "Uma lista de afazeres",
         link: "https://lucasregisdemoraes.github.io/pages/projects",
         previewImage: "../assets/preview/default.png",
+        filterBy: ["Inspirado", "React Native"],
         tags: [
             {
                 link: "https://github.com/lucasregisdemoraes/to-do-list",
@@ -264,6 +276,7 @@ export default [
         description: "Uma calculadora com dark mode ",
         link: "https://lucasregisdemoraes.github.io/pages/projects",
         previewImage: "../assets/preview/default.png",
+        filterBy: ["Inspirado", "React Native"],
         tags: [
             {
                 link: "https://github.com/lucasregisdemoraes/calculator",
@@ -281,6 +294,7 @@ export default [
         description: 'Projetos do evento "7 projetos em 7 dias"',
         link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
         previewImage: "../assets/preview/7-projetos-em-7-dias.png",
+        filterBy: ["Inspirado", "Coleção", "Evento"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
@@ -303,6 +317,7 @@ export default [
         description: "Um cardápio de um café",
         link: "https://lucasregisdemoraes.github.io/rocketcoffee",
         previewImage: "../assets/preview/rocketcoffee.png",
+        filterBy: ["Inspirado", "Evento"],
         tags: [
             {
                 link: "https://lucasregisdemoraes.github.io/rocketcoffee",

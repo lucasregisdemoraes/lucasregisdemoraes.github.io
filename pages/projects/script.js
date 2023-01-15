@@ -33,8 +33,10 @@ function showProjects(list) {
     const elementPortfolioList = document.getElementById("portfolio-list")
     elementPortfolioList.innerHTML = ""
 
-    list.forEach(item => {
-        const elementItem = `
+    list
+        .sort((a, b) => a.title > b.title ? 1 : b.title > a.title ? -1 : 0)
+        .forEach(item => {
+            const elementItem = `
             <li class="portfolio-item">
                 <h2>${item.title}</h2>
                 <p>${item.description}</p>
@@ -58,20 +60,19 @@ function showProjects(list) {
                 </ul>
             </li>
         `
-        elementPortfolioList.innerHTML += elementItem
-    })
+            elementPortfolioList.innerHTML += elementItem
+        })
 }
 
 function getFilteredProjects(projects) {
     const filterValue = document.querySelector("#filterBy").value
-    if (filterValue !== "Todos") {
-        projects = projects.filter(project => {
-            return project.tags.find(
-                tag => tag.abbrContent === filterValue
-            ) && !""
-        })
-    }
-    return projects
+    return filterValue === "Todos" ?
+        projects
+        :
+        projects
+            .filter(project => project.filterBy
+                .find(item => item === filterValue)
+            )
 }
 
 function updateProjectsNumber(number) {
