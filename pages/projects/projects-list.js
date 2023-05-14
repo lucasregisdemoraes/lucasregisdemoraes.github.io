@@ -948,5 +948,54 @@ export default [
         abbrContent: "Rocketseat"
       }
     ]
+  },
+  {
+    title: "Alurakut",
+    description: "Site semelhante ao Orkut feito utilizando React JS",
+    link:
+      "https://alurakut-seven-ashy.vercel.app/",
+    previewImage: "../assets/preview/alurakut.png",
+    filterBy: ["Inspirado", "Evento", "React"],
+    tags: [
+      {
+        link:
+          "https://alurakut-seven-ashy.vercel.app/",
+        abbrTitle: "Página na internet",
+        abbrContent: "Página"
+      },
+      {
+        link:
+          "https://github.com/lucasregisdemoraes/alurakut",
+        abbrTitle: "Página do projeto no GitHub",
+        abbrContent: "GitHub"
+      },
+      {
+        abbrTitle: "Baseado na imersão React da Alura",
+        abbrContent: "Alura"
+      }
+    ]
+  },
+  {
+    title: "Habits",
+    description: "Um gerenciador de hábitos",
+    link: "https://lucasregisdemoraes.github.io/habits",
+    previewImage: "../assets/preview/habits.png",
+    filterBy: ["Inspirado", "Evento"],
+    tags: [
+      {
+        link: "https://lucasregisdemoraes.github.io/habits",
+        abbrTitle: "Página na internet",
+        abbrContent: "Página"
+      },
+      {
+        link: "https://github.com/lucasregisdemoraes/habits",
+        abbrTitle: "Página do projeto no GitHub",
+        abbrContent: "GitHub"
+      },
+      {
+        abbrTitle: "Baseado em um evento da Rocketseat",
+        abbrContent: "Rocketseat"
+      }
+    ]
   }
 ]
