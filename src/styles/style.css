@@ -1,18 +1,12 @@
 /*      =====   VARIABLE    =====      */
 :root {
-    --mainBackgroundColor: rgba(0,130,207,1);
-    --secondaryBackgroundColor: rgba(0,59,94,1);
-    --thirdBackgroundColor: rgb(236, 242, 255);
+    --mainBackgroundColor: white;
+    --secondaryBackgroundColor: black;
+    --thirdBackgroundColor: #e5e5e5;
 
     --mainTextColor: black;
     --secondaryTextColor: white;
     --thirdTextColor: #cecece;
-
-    --linkColor: #707070;
-    --secondaryLinkColor: black;
-
-    --buttonBackgroundColor: rgba(0,163,255,1);
-    --buttonSecondaryBackgroundColor: rgba(0,91,142,1);
 }
 
 /*      =====   GENERAL STYLES    =====      */
@@ -30,7 +24,9 @@ body.open-menu {
     overflow-y: hidden;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     margin: 0;
 }
 
@@ -194,7 +190,7 @@ main .container .button {
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--mainTextColor);
-    background: linear-gradient(135deg, var(--buttonSecondaryBackgroundColor) 0%, var(--buttonBackgroundColor) 100%); 
+    background: linear-gradient(135deg, var(--buttonSecondaryBackgroundColor) 0%, var(--buttonBackgroundColor) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +201,7 @@ main .container .button {
 }
 
 main .container .button:hover {
-    background: linear-gradient(135deg, var(--buttonBackgroundColor) 0%, var(--buttonSecondaryBackgroundColor) 100%); 
+    background: linear-gradient(135deg, var(--buttonBackgroundColor) 0%, var(--buttonSecondaryBackgroundColor) 100%);
 }
 
 /*      =====   Home Section    =====      */
@@ -272,11 +268,12 @@ footer .container li a {
 
 /*      =====   RESPONSIVENESS    =====      */
 @media screen and (min-width: 767px) {
+
     /*      =====   GENERAL STYLES    =====      */
     body.open-menu {
         overflow-y: auto;
     }
-    
+
     .container {
         width: min(85vw, 900px);
     }
@@ -323,7 +320,7 @@ footer .container li a {
         font-size: 2.5rem;
         text-align: left;
     }
-    
+
     main .container ul {
         margin-left: 50px;
         align-items: flex-start;
@@ -354,7 +351,7 @@ footer .container li a {
 
     /*      =====   FOOTER    =====      */
     footer {
-        background: linear-gradient(315deg, var(--secondaryBackgroundColor) 0%, var(--mainBackgroundColor) 100%); 
+        background: linear-gradient(315deg, var(--secondaryBackgroundColor) 0%, var(--mainBackgroundColor) 100%);
     }
 
     footer .container h2 {

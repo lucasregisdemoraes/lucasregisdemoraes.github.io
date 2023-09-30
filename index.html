@@ -3,87 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon.svg" type="image/svg+xml">
     <title>Lucas Regis de Moraes</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/home/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <h2><a href="#home">Lucas</a></h2>
-                <div class="menu">
-                    <div class="hamburguer-menu">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="close-menu"></div>
-                    <ul class="menu-options">
-                        <li><a href="https://github.com/lucasregisdemoraes" target="_blank">GitHub</a></li>
-                        <li><a href="https://codepen.io/LucasGRM" target="_blank">CodePen</a></li>
-                        <li><a href="#contact">Contato</a></li>
-                        <li><a href="./pages/about-me">Sobre</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
     <main>
         <section id="home">
-            <div class="container">
-                <h1>Olá, eu sou o Lucas</h1>
-                <h2>Desenvolvedor web e mobile</h2>
+            <div class="intro">
+                <h1>Olá,<br> Eu sou o Lucas</h1>
+                <h2>Desenvolvedor Web</h2>
             </div>
+            <ul class="techs">
+                <li>
+                    <ion-icon name="logo-html5" title="HTML"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-css3" title="CSS"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-javascript" title="JavaScript"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-react" title="ReactJS"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-sass" title="SASS"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-github" title="GitHub"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-figma" title="GitHub"></ion-icon>
+                </li>
+            </ul>
+            <ion-icon name="arrow-down"></ion-icon>
         </section>
-
-        <section id="knowledge">
-            <div class="container">
-                <h2>Meus Conhecimentos</h2>
-                <ul>
-                    <li><abbr title="Hyper Text Markup Language (Linguagem de Marcação de HiperTexto)">HTML</abbr></li>
-                    <li><abbr title="Cascading Style Sheets (Folhas de Estilo em Cascata)">CSS</abbr></li>
-                    <li><span>JavaScript</span></li>
-                    <li><span>React JS</span></li>
-                    <li><span>React Native</span></li>
-                    <li><span>Figma</span></li>
-                </ul>
+        <section id="projects">
+            <div class="title">
+                <h2>Projetos em destaque</h2>
+                <ion-icon name="arrow-forward"></ion-icon>
             </div>
+            <ul>
+                <li>
+                    <img src="./assets/preview/beauty-salon.png" alt="Projeto">
+                </li>
+                <li>
+                    <img src="./assets/preview/blogr.png" alt="Projeto">
+                </li>
+                <li>
+                    <img src="./assets/preview/conversor-de-moedas(boracodar).png" alt="Projeto">
+                </li>
+            </ul>
+            <a href="#">Todos projetos <ion-icon name="arrow-redo"></ion-icon></a>
         </section>
-
-        <section id="portfolio">
-            <div class="container">
-                <h2>Portfolio</h2>
-
-                <div class="buttons">
-                    <a href="./pages/projects" class="button">Projetos</a>
-                    <a href="https://github.com/lucasregisdemoraes" target="_blank" class="button">GitHub</a>
-                    <a href="https://codepen.io/LucasGRM" target="_blank" class="button">CodePen</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div id="contact" class="container">
+        <footer>
             <h2>Contato</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/lucasregisdemoraes" target="_blank"><img
-                            src="assets/social-medias/github.svg" alt="Github"></a>
+                    <span class="sr-only">Meu GitHub</span>
+                    <ion-icon name="logo-github"></ion-icon>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/lucas-regis-55597921b" target="_blank"><img
-                            src="assets/social-medias/linkedin.svg" alt="LinkedIn"></a>
+                    <span class="sr-only">Meu Linkedin</span>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </li>
+                <li>
+                    <span class="sr-only">Meu CodePen</span>
+                    <ion-icon name="logo-codepen"></ion-icon>
                 </li>
             </ul>
-        </div>
-    </footer>
-
-    <script src="./scripts.js"></script>
+        </footer>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
