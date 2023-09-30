@@ -1,1 +1,167 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: white;
+}
+
+main section .container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+main section .container .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section .container .title h2 {
+  font-size: 24px;
+}
+main section .container .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+main section .container .buttons a {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 15px;
+  padding: 20px 40px;
+  outline: none;
+  transition: 300ms;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+main section .container .buttons a:hover, main section .container .buttons a:focus {
+  opacity: 0.9;
+  font-size: 22px;
+}
+main section .container .buttons a ion-icon {
+  font-size: 20px;
+}
+main section#home {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+main section#home .container {
+  height: 105vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+main section#home .container .intro {
+  margin-top: -100px;
+  display: grid;
+  gap: 10px;
+  margin-inline: auto;
+}
+main section#home .container .intro h1 {
+  font-size: 48px;
+}
+main section#home .container .intro h2 {
+  font-size: 32px;
+  color: #cecece;
+}
+main section#home .container ul.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 10px;
+}
+main section#home .container ul.techs li ion-icon {
+  font-size: 45px;
+  transition: transform 300ms;
+}
+main section#home .container ul.techs li ion-icon:hover {
+  transform: scale(1.5) translateY(-10px);
+}
+main section#home .container .arrow-down {
+  font-size: 40px;
+  position: absolute;
+  right: 50%;
+  bottom: 10%;
+  animation: move-up-down 2s infinite ease-in-out;
+}
+@keyframes move-up-down {
+  0% {
+    transform: translate(50%, 0px);
+  }
+  50% {
+    transform: translate(50%, -50px);
+  }
+  100% {
+    transform: translate(50%, 0px);
+  }
+}
+main section#projects .container .title ion-icon {
+  font-size: 32px;
+  animation: move-left-right 2s infinite ease-in-out;
+}
+@keyframes move-left-right {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+main section#projects .container ul {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 500px;
+}
+main section#projects .container ul li {
+  flex-shrink: 0;
+  flex-basis: min(80%, 300px);
+  overflow: hidden;
+}
+main section#projects .container ul li a:hover img, main section#projects .container ul li a:focus img {
+  transform: scale(1.2);
+}
+main section#projects .container ul li a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: 200ms;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 80px 0;
+}
+footer .container {
+  display: grid;
+  gap: 40px;
+  justify-content: center;
+}
+footer .container h2 {
+  font-size: 32px;
+  text-align: center;
+}
+footer .container ul {
+  display: flex;
+  gap: 30px;
+}
+footer .container ul li a {
+  outline: none;
+}
+footer .container ul li a ion-icon {
+  color: white;
+  font-size: 40px;
+  transition: 300ms;
+}
+footer .container ul li a:hover ion-icon, footer .container ul li a:focus ion-icon {
+  transform: scale(1.5) translateY(-10px);
+}/*# sourceMappingURL=style.css.map */

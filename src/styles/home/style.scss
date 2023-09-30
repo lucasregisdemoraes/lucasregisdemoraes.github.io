@@ -7,5 +7,225 @@ $secondaryTextColor: white;
 $thirdTextColor: #cecece;
 
 body {
-    // background-color: $secondaryBackgroundColor;
+    background-color: $mainBackgroundColor;
+}
+
+main {
+    section {
+        .container {
+            padding: 50px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h2 {
+                    font-size: 24px;
+                }
+
+            }
+
+            .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+
+                a {
+                    font-size: 20px;
+                    color: $secondaryTextColor;
+                    font-weight: 700;
+                    text-decoration: none;
+                    background-color: $secondaryBackgroundColor;
+                    border-radius: 15px;
+                    padding: 20px 40px;
+                    outline: none;
+                    transition: 300ms;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    &:hover,
+                    &:focus {
+                        opacity: 0.9;
+                        font-size: 22px;
+                    }
+
+                    ion-icon {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    section#home {
+        position: relative;
+        background-color: $secondaryBackgroundColor;
+        color: $secondaryTextColor;
+
+        .container {
+            height: 105vh;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            .intro {
+                margin-top: -100px;
+                display: grid;
+                gap: 10px;
+                margin-inline: auto;
+
+                h1 {
+                    font-size: 48px;
+                }
+
+                h2 {
+                    font-size: 32px;
+                    color: $thirdTextColor;
+                }
+            }
+
+            ul.techs {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px 10px;
+
+                li {
+                    ion-icon {
+                        font-size: 45px;
+                        transition: transform 300ms;
+
+                        &:hover {
+                            transform: scale(1.5) translateY(-10px);
+                        }
+                    }
+                }
+            }
+
+            .arrow-down {
+                @keyframes move-up-down {
+                    0% {
+                        transform: translate(50%, 0px);
+                    }
+
+                    50% {
+                        transform: translate(50%, -50px);
+                    }
+
+                    100% {
+                        transform: translate(50%, 0px);
+                    }
+                }
+
+                font-size: 40px;
+                position: absolute;
+                right: 50%;
+                bottom: 10%;
+                animation: move-up-down 2s infinite ease-in-out;
+            }
+        }
+    }
+
+    section#projects {
+        .container {
+            .title {
+                ion-icon {
+                    @keyframes move-left-right {
+                        0% {
+                            transform: translateX(0px);
+                        }
+
+                        50% {
+                            transform: translateX(-50px);
+                        }
+
+                        100% {
+                            transform: translateX(0px);
+                        }
+                    }
+
+                    font-size: 32px;
+                    animation: move-left-right 2s infinite ease-in-out;
+                }
+            }
+
+            ul {
+                display: flex;
+                gap: 20px;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                height: 500px;
+
+                li {
+                    flex-shrink: 0;
+                    flex-basis: min(80%, 300px);
+                    overflow: hidden;
+
+                    a {
+
+                        &:hover,
+                        &:focus {
+                            img {
+                                transform: scale(1.2);
+                            }
+                        }
+
+                        img {
+                            object-fit: cover;
+                            height: 100%;
+                            width: 100%;
+                            transition: 200ms;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $secondaryBackgroundColor;
+    color: $secondaryTextColor;
+    padding: 80px 0;
+
+    .container {
+        display: grid;
+        gap: 40px;
+        justify-content: center;
+
+        h2 {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+
+            li {
+                a {
+                    outline: none;
+
+                    ion-icon {
+                        color: $secondaryTextColor;
+                        font-size: 40px;
+                        transition: 300ms;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        ion-icon {
+                            transform: scale(1.5) translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
