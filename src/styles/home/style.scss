@@ -4,7 +4,7 @@ $thirdBackgroundColor: #e5e5e5;
 
 $mainTextColor: black;
 $secondaryTextColor: white;
-$thirdTextColor: #cecece;
+$thirdTextColor: #a0a0a0;
 
 body {
     background-color: $mainBackgroundColor;
@@ -82,6 +82,7 @@ main {
 
                 h1 {
                     font-size: 48px;
+                    font-weight: 900;
                 }
 
                 h2 {
@@ -224,6 +225,30 @@ footer {
                             transform: scale(1.5) translateY(-10px);
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    main section#home .container {
+        flex-direction: row;
+
+        .intro {
+            h1 {
+                font-size: 62px;
+            }
+
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        ul.techs {
+            li {
+                ion-icon {
+                    font-size: 60px;
                 }
             }
         }

@@ -62,10 +62,11 @@ main section#home .container .intro {
 }
 main section#home .container .intro h1 {
   font-size: 48px;
+  font-weight: 900;
 }
 main section#home .container .intro h2 {
   font-size: 32px;
-  color: #cecece;
+  color: #a0a0a0;
 }
 main section#home .container ul.techs {
   display: flex;
@@ -164,4 +165,19 @@ footer .container ul li a ion-icon {
 }
 footer .container ul li a:hover ion-icon, footer .container ul li a:focus ion-icon {
   transform: scale(1.5) translateY(-10px);
+}
+
+@media (min-width: 800px) {
+  main section#home .container {
+    flex-direction: row;
+  }
+  main section#home .container .intro h1 {
+    font-size: 62px;
+  }
+  main section#home .container .intro h2 {
+    font-size: 40px;
+  }
+  main section#home .container ul.techs li ion-icon {
+    font-size: 60px;
+  }
 }/*# sourceMappingURL=style.css.map */
