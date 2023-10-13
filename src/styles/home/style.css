@@ -16,6 +16,16 @@ main section .container .title {
 main section .container .title h2 {
   font-size: 24px;
 }
+main section .container p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+main section .container a {
+  color: black;
+}
+main section .container a:hover {
+  opacity: 0.7;
+}
 main section .container .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -98,6 +108,20 @@ main section#home .container .arrow-down {
   100% {
     transform: translate(50%, 0px);
   }
+}
+main section#about {
+  position: relative;
+}
+main section#about::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 400px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 50%;
+  right: -200px;
+  transform: translateY(-50%);
 }
 main section#projects .container .title ion-icon {
   font-size: 32px;
