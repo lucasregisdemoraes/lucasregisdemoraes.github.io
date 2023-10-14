@@ -1,0 +1,186 @@
+$mainBackgroundColor: white;
+$secondaryBackgroundColor: black;
+$thirdBackgroundColor: #e5e5e5;
+
+$mainTextColor: black;
+$secondaryTextColor: white;
+$thirdTextColor: #a0a0a0;
+
+section .container {
+    padding: 100px 0;
+    display: grid;
+    gap: 30px;
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+        a {
+            font-size: 20px;
+            color: $secondaryTextColor;
+            font-weight: 700;
+            text-decoration: none;
+            background-color: $secondaryBackgroundColor;
+            border-radius: 15px;
+            padding: 20px 40px;
+            outline: none;
+            transition: 300ms;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            &:hover,
+            &:focus {
+                opacity: 0.9;
+                font-size: 22px;
+            }
+
+            ion-icon {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+
+        ion-icon {
+            @keyframes move-left-right {
+                0% {
+                    transform: translateX(0px);
+                }
+
+                50% {
+                    transform: translateX(-50px);
+                }
+
+                100% {
+                    transform: translateX(0px);
+                }
+            }
+
+            font-size: 32px;
+            animation: move-left-right 2s infinite ease-in-out;
+        }
+    }
+}
+
+section#chat {
+    background-color: $secondaryBackgroundColor;
+    color: $secondaryTextColor;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .question,
+        .answer {
+            background-color: $mainBackgroundColor;
+            color: $mainTextColor;
+            border: 2px solid $mainBackgroundColor;
+            border-radius: 22px;
+            padding: 10px;
+            font-size: 20px;
+            line-height: 20px;
+            width: max-content;
+            max-width: 70%;
+            font-weight: 400;
+
+            a {
+                color: $thirdTextColor;
+
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+
+        .answer {
+            margin-left: auto;
+            background-color: transparent;
+            color: $secondaryTextColor;
+        }
+    }
+}
+
+section#projects {
+    .container {
+        ul {
+            display: flex;
+            gap: 20px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 500px;
+
+            li {
+                flex-shrink: 0;
+                flex-basis: min(80%, 300px);
+                overflow: hidden;
+
+                a {
+
+                    &:hover,
+                    &:focus {
+                        img {
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                        transition: 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    background-color: $secondaryBackgroundColor;
+    color: $secondaryTextColor;
+    padding: 80px 0;
+
+    .container {
+        display: grid;
+        gap: 40px;
+        justify-content: center;
+        padding: 100px 0;
+
+        h2 {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+
+            li {
+                a {
+                    outline: none;
+
+                    ion-icon {
+                        color: $secondaryTextColor;
+                        font-size: 40px;
+                        transition: 300ms;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        ion-icon {
+                            transform: scale(1.5) translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

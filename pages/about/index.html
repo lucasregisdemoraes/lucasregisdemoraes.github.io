@@ -3,41 +3,126 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../assets/icon.svg" type="image/svg+xml">
     <title>Sobre mim - Lucas</title>
-    <link rel="stylesheet" href="../../styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../src/styles/about/style.css">
+    <link rel="stylesheet" href="../../src/styles/global/style.css">
 </head>
 
 <body>
     <main>
-        <section>
+        <section id="chat">
             <div class="container">
-                <p style="margin: 50px">Esta Página ainda está em desenvolvimento</p>
+                <h2 class="question">Oi, qual seu nome?</h2>
+                <p class="answer">Oi, meu nome é <strong>Lucas Gabriel Regis de Moraes</strong></p>
+                <h2 class="question">Quais são seus conhecimentos?</h2>
+                <div class="answer">
+                    <p>Tenho conhecimentos em:
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                        <li>SASS</li>
+                        <li>Git e GitHub</li>
+                        <li>Figma</li>
+                    </ul>
+                    </p>
+                </div>
+                <h2 class="question">Me fale um pouco sobre você</h2>
+                <p class="answer">Eu sou um <strong>desenvolvedor Web focado no Front End</strong>, comecei a estudar
+                    sobre essa área em
+                    2021, as
+                    tecnologias que tenho especialidade são <strong>
+                        HTML, CSS
+                        e JavaScript
+                    </strong>. Mas também já vi sobre ReactJS e SASS.</p>
+                <h2 class="question">Onde posso ver seus projetos/portfolio?</h2>
+                <p class="answer">Para ver os projetos que ja fiz é só <a href="../projects/index.html" target="_parent"
+                        rel="noopener noreferrer external">clicar aqui</a></p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="title">
+                    <h2>Alguns projetos que fiz</h2>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/beauty-salon.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/blogr.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/conversor-de-moedas(boracodar).png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/beauty-salon.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/beauty-salon.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <a href="#">Todos projetos <ion-icon name="arrow-redo"></ion-icon></a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <h2 id="contact">Contato</h2>
+            <h2>Contato</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/lucasregisdemoraes" target="_blank"><img
-                            src="assets/social-medias/example2.png" alt="Github"></a>
+                    <a href="https://github.com/lucasregisdemoraes" target="_blank" rel="noopener noreferrer external">
+                        <span class="sr-only">Meu GitHub</span>
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://codepen.io/LucasGRM" target="_blank"><img src="assets/social-medias/example2.png"
-                            alt="CodePen"></a>
+                    <a href="https://www.linkedin.com/in/lucas-regis-de-moraes/" target="_blank"
+                        rel="noopener noreferrer external">
+                        <span class="sr-only">Meu Linkedin</span>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/lucas-regis-55597921b/" target="_blank"><img src="assets/social-medias/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="https://codepen.io/LucasGRM" target="_blank" rel="noopener noreferrer external">
+                        <span class="sr-only">Meu CodePen</span>
+                        <ion-icon name="logo-codepen"></ion-icon>
+                    </a>
                 </li>
             </ul>
         </div>
     </footer>
 
-    <script src="../scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
