@@ -27,16 +27,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  overflow-x: hidden;
-}
-
-.container {
-  width: min(800px, 85vw);
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .sr-only {
   /* Copied from TailwindCSS */
   position: absolute;
@@ -48,4 +38,65 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* =========== */
+.container {
+  width: min(800px, 85vw);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main section .container {
+  padding: 100px 0;
+  display: grid;
+  gap: 50px;
+}
+main section .container .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section .container .title-container h2 {
+  font-size: 28px;
+}
+main section .container p {
+  font-size: 20px;
+}
+main section .container a {
+  color: #a0a0a0;
+}
+main section .container a:hover {
+  opacity: 0.7;
+}
+main section .container .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+main section .container .buttons a {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 15px;
+  padding: 20px 40px;
+  outline: none;
+  transition: 300ms;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+main section .container .buttons a:hover, main section .container .buttons a:focus {
+  opacity: 0.9;
+  font-size: 22px;
+}
+main section .container .buttons a ion-icon {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

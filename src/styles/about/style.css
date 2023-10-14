@@ -1,55 +1,3 @@
-section .container {
-  padding: 100px 0;
-  display: grid;
-  gap: 30px;
-}
-section .container .buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-section .container .buttons a {
-  font-size: 20px;
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: black;
-  border-radius: 15px;
-  padding: 20px 40px;
-  outline: none;
-  transition: 300ms;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-section .container .buttons a:hover, section .container .buttons a:focus {
-  opacity: 0.9;
-  font-size: 22px;
-}
-section .container .buttons a ion-icon {
-  font-size: 20px;
-}
-section .container .title {
-  display: flex;
-  justify-content: space-between;
-}
-section .container .title ion-icon {
-  font-size: 32px;
-  animation: move-left-right 2s infinite ease-in-out;
-}
-@keyframes move-left-right {
-  0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(-50px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
 section#chat {
   background-color: black;
   color: white;
@@ -73,70 +21,8 @@ section#chat .container .answer {
   max-width: 70%;
   font-weight: 400;
 }
-section#chat .container .question a,
-section#chat .container .answer a {
-  color: #a0a0a0;
-}
-section#chat .container .question a:hover,
-section#chat .container .answer a:hover {
-  opacity: 0.6;
-}
 section#chat .container .answer {
   margin-left: auto;
   background-color: transparent;
   color: white;
-}
-
-section#projects .container ul {
-  display: flex;
-  gap: 20px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  height: 500px;
-}
-section#projects .container ul li {
-  flex-shrink: 0;
-  flex-basis: min(80%, 300px);
-  overflow: hidden;
-}
-section#projects .container ul li a:hover img, section#projects .container ul li a:focus img {
-  transform: scale(1.2);
-}
-section#projects .container ul li a img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  width: 100%;
-  transition: 200ms;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding: 80px 0;
-}
-footer .container {
-  display: grid;
-  gap: 40px;
-  justify-content: center;
-  padding: 100px 0;
-}
-footer .container h2 {
-  font-size: 32px;
-  text-align: center;
-}
-footer .container ul {
-  display: flex;
-  gap: 30px;
-}
-footer .container ul li a {
-  outline: none;
-}
-footer .container ul li a ion-icon {
-  color: white;
-  font-size: 40px;
-  transition: 300ms;
-}
-footer .container ul li a:hover ion-icon, footer .container ul li a:focus ion-icon {
-  transform: scale(1.5) translateY(-10px);
 }/*# sourceMappingURL=style.css.map */

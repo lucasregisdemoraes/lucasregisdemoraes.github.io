@@ -1,0 +1,55 @@
+section#projects {
+    .container {
+        .title-container {
+            ion-icon {
+                @keyframes move-left-right {
+                    0% {
+                        transform: translateX(0px);
+                    }
+
+                    50% {
+                        transform: translateX(-50px);
+                    }
+
+                    100% {
+                        transform: translateX(0px);
+                    }
+                }
+
+                font-size: 32px;
+                animation: move-left-right 2s infinite ease-in-out;
+            }
+        }
+
+        ul {
+            display: flex;
+            gap: 20px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 500px;
+
+            li {
+                flex-shrink: 0;
+                flex-basis: min(80%, 300px);
+                overflow: hidden;
+
+                a {
+
+                    &:hover,
+                    &:focus {
+                        img {
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                        transition: 200ms;
+                    }
+                }
+            }
+        }
+    }
+}

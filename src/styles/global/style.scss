@@ -27,16 +27,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    overflow-x: hidden;
-}
-
-.container {
-    width: min(800px, 85vw);
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .sr-only {
     /* Copied from TailwindCSS */
     position: absolute;
@@ -48,4 +38,83 @@ body {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* =========== */
+
+$mainBackgroundColor: white;
+$secondaryBackgroundColor: black;
+
+$mainTextColor: black;
+$secondaryTextColor: white;
+$linkTextColor: #a0a0a0;
+
+.container {
+    width: min(800px, 85vw);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main section .container {
+    padding: 100px 0;
+    display: grid;
+    gap: 50px;
+
+    .title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    a {
+        color: $linkTextColor;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+        a {
+            font-size: 20px;
+            color: $secondaryTextColor;
+            font-weight: 700;
+            text-decoration: none;
+            background-color: $secondaryBackgroundColor;
+            border-radius: 15px;
+            padding: 20px 40px;
+            outline: none;
+            transition: 300ms;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            &:hover,
+            &:focus {
+                opacity: 0.9;
+                font-size: 22px;
+            }
+
+            ion-icon {
+                font-size: 20px;
+            }
+        }
+    }
 }

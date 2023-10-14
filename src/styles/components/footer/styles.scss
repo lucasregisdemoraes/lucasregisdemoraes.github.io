@@ -1,0 +1,43 @@
+$secondaryBackgroundColor: black;
+$secondaryTextColor: white;
+
+footer {
+    background-color: $secondaryBackgroundColor;
+    color: $secondaryTextColor;
+
+    .container {
+        padding: 80px 0;
+        display: grid;
+        gap: 60px;
+        justify-content: center;
+
+        h2 {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+
+            li {
+                a {
+                    outline: none;
+
+                    ion-icon {
+                        color: $secondaryTextColor;
+                        font-size: 40px;
+                        transition: 300ms;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        ion-icon {
+                            transform: scale(1.5) translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
