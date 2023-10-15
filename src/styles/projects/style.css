@@ -9,7 +9,7 @@ main section#filter .container {
   padding-bottom: 0px;
   gap: 20px;
 }
-main section#filter .container .projects-number {
+main section#filter .container #projects-number {
   color: white;
 }
 main section#filter .container .techs {

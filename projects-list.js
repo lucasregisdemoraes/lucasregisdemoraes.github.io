@@ -5,6 +5,7 @@ export default [
     link: "https://lucasregisdemoraes.github.io/blogr/",
     previewImage: "../../assets/preview/blogr.png",
     filterBy: ["Inspirado"],
+    techs: ["HTML", "CSS", "JavaScript"],
     tags: [
       {
         link: "https://lucasregisdemoraes.github.io/blogr/",
