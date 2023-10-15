@@ -3,84 +3,147 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/icon.svg" type="image/svg+xml">
     <title>Projetos - Lucas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/styles/global/style.css">
+    <link rel="stylesheet" href="../../src/styles/components/projects/style.css">
+    <link rel="stylesheet" href="../../src/styles/components/footer/styles.css">
+    <link rel="stylesheet" href="../../src/styles/projects/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
-                <h1 class="logo"><a href="../../index.html">Lucas</a></h1>
-                <div class="hamburguer-menu">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li class="mobile-only"><a href="../../index.html#portfolio">Portfolio</a></li>
-                    <li class="mobile-only"><a href="./">Projetos</a></li>
-                    <li class="mobile-only"><a href="https://codepen.io/LucasGRM" target="_blank">CodePen</a></li>
-                    <li class="mobile-only"><a href="https://github.com/lucasregisdemoraes" target="_blank">GitHub</a>
-                    </li>
-
-                    <li class="desktop-only portfolio-option"><span>Portfolio</span></li>
-                    <ul class="portfolio-options desktop-only">
-                        <li><a href="./">Projetos</a></li>
-                        <li><a href="https://codepen.io/LucasGRM" target="_blank">CodePen</a></li>
-                        <li><a href="https://github.com/lucasregisdemoraes" target="_blank">GitHub</a></li>
-                    </ul>
-
-                    <li><a href="#contact">Contato</a></li>
-                    <li><a href="../about-me">Sobre</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <main>
-        <div class="container">
-            <p class="tip">Clique na imagem para ir para a página</p>
-            <div>
-                <p><span id="projects-number">0</span> Projetos</p>
+        <section id="filter">
+            <div class="container">
+                <p class="projects-number"><span>0</span> Projetos</p>
+                <ul class="techs">
+                    <li>
+                        <input checked class="sr-only" type="checkbox" value="html" name="tech" id="tech-html">
+                        <label title="HTML" for="tech-html">
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <span class="sr-only">HTML</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input checked class="sr-only" type="checkbox" value="css" name="tech" id="tech-css">
+                        <label title="CSS" for="tech-css">
+                            <ion-icon name="logo-css3"></ion-icon>
+                            <span class="sr-only">CSS</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input checked class="sr-only" type="checkbox" value="javascript" name="tech"
+                            id="tech-javascript">
+                        <label title="JavaScript" for="tech-javascript">
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            <span class="sr-only">JavaScript</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input checked class="sr-only" type="checkbox" value="sass" name="tech" id="tech-sass">
+                        <label title="SASS" for="tech-sass">
+                            <ion-icon name="logo-sass"></ion-icon>
+                            <span class="sr-only">SASS</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input checked class="sr-only" type="checkbox" value="react" name="tech" id="tech-react">
+                        <label title="ReactJS" for="tech-react">
+                            <ion-icon name="logo-react"></ion-icon>
+                            <span class="sr-only">ReactJS</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input checked class="sr-only" type="checkbox" value="react-native" name="tech"
+                            id="tech-react-native">
+                        <label title="React Native" for="tech-react-native">
+                            <ion-icon name="logo-react"></ion-icon>
+                            <span class="sr-only">React Native</span>
+                        </label>
+                    </li>
+                </ul>
                 <div class="filter-by-div">
                     <p>Filtrar por:</p>
-                    <select name="filterBy" id="filterBy">
+                    <select title="Filtrar por" name="filterBy" id="filterBy">
                         <option value="Todos">Todos</option>
                         <option value="Projeto Próprio">Projetos Próprios</option>
-                        <option value="React">React</option>
-                        <option value="React Native">React Native</option>
                         <option value="Coleção">Coleções</option>
                         <option value="Evento">Eventos</option>
                         <option value="Inspirado">Inspirados</option>
                     </select>
                 </div>
             </div>
-            <ul id="portfolio-list"></ul>
-        </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/beauty-salon.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/blogr.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/conversor-de-moedas(boracodar).png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/beauty-salon.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/preview/beauty-salon.png" alt="Projeto">
+                            <span class="sr-only">Projeto</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div id="contact" class="container">
+        <div class="container">
             <h2>Contato</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/lucasregisdemoraes" target="_blank"><img
-                            src="assets/social-medias/github.svg" alt="Github"></a>
+                    <a href="https://github.com/lucasregisdemoraes" target="_blank" rel="noopener noreferrer external">
+                        <span class="sr-only">Meu GitHub</span>
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/lucas-regis-55597921b" target="_blank"><img
-                            src="assets/social-medias/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="https://www.linkedin.com/in/lucas-regis-de-moraes/" target="_blank"
+                        rel="noopener noreferrer external">
+                        <span class="sr-only">Meu Linkedin</span>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/LucasGRM" target="_blank" rel="noopener noreferrer external">
+                        <span class="sr-only">Meu CodePen</span>
+                        <ion-icon name="logo-codepen"></ion-icon>
+                    </a>
                 </li>
             </ul>
         </div>
     </footer>
-
-    <script type="module" src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

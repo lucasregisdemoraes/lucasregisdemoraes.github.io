@@ -1,0 +1,61 @@
+main section#filter {
+  background-color: black;
+}
+main section#filter .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 0px;
+  gap: 20px;
+}
+main section#filter .container .projects-number {
+  color: white;
+}
+main section#filter .container .techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+main section#filter .container .techs li input:checked + label {
+  transform: scale(1);
+  opacity: 1;
+}
+main section#filter .container .techs li input:focus + label,
+main section#filter .container .techs li label:hover {
+  transform: scale(1);
+  outline: white solid 2px;
+}
+main section#filter .container .techs li label {
+  display: flex;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2px;
+  transition: transform 0.5s, opacity 0.3s, outline 0.3s;
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+main section#filter .container .techs li label ion-icon {
+  color: white;
+  font-size: 44px;
+}
+main section#filter .container .filter-by-div {
+  color: white;
+  display: grid;
+  gap: 5px;
+}
+main section#filter .container .filter-by-div select {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 8px 8px 0px 0px;
+  outline: none;
+  cursor: pointer;
+}
+main section#filter .container .filter-by-div select:hover, main section#filter .container .filter-by-div select:focus {
+  filter: brightness(1.6);
+  background-color: rgb(20, 20, 20);
+}/*# sourceMappingURL=style.css.map */
