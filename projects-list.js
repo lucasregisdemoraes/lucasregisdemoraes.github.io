@@ -3,7 +3,7 @@ export default [
     title: "Blogr",
     description: "Landing Page de uma plataforma de publicação",
     link: "https://lucasregisdemoraes.github.io/blogr/",
-    previewImage: "../assets/preview/blogr.png",
+    previewImage: "../../assets/preview/blogr.png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -31,7 +31,7 @@ export default [
     title: "DevChallenge",
     description: "Desafios do DevChallenge concluídos por mim",
     link: "https://lucasregisdemoraes.github.io/devchallenge",
-    previewImage: "../assets/preview/devchallenge.png",
+    previewImage: "../../assets/preview/devchallenge.png",
     filterBy: ["Inspirado", "Coleção"],
     tags: [
       {
@@ -55,7 +55,7 @@ export default [
     title: "Kenziegram",
     description: "Clone do Instagram",
     link: "https://lucasregisdemoraes.github.io/kenziegram/",
-    previewImage: "../assets/preview/kenziegram.png",
+    previewImage: "../../assets/preview/kenziegram.png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -78,7 +78,7 @@ export default [
     title: "BeautySalon",
     description: "Landing Page para um salão de beleza",
     link: "https://lucasregisdemoraes.github.io/beauty-salon/",
-    previewImage: "../assets/preview/beauty-salon.png",
+    previewImage: "../../assets/preview/beauty-salon.png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -101,7 +101,7 @@ export default [
     title: "Certificard",
     description: "Certificado de conclusão da imersão dev - Alura",
     link: "https://lucasregisdemoraes.github.io/certificard/",
-    previewImage: "../assets/preview/certificard.png",
+    previewImage: "../../assets/preview/certificard.png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -124,7 +124,7 @@ export default [
     title: "Spotify",
     description: "Clone do Spotify",
     link: "https://lucasregisdemoraes.github.io/spotify",
-    previewImage: "../assets/preview/spotify.png",
+    previewImage: "../../assets/preview/spotify.png",
     filterBy: ["Projeto Próprio", "Inspirado"],
     tags: [
       {
@@ -147,7 +147,7 @@ export default [
     title: "Dev.finance$",
     description: "Site para gerenciamento das finanças",
     link: "https://lucasregisdemoraes.github.io/devfinances/",
-    previewImage: "../assets/preview/devfinances.png",
+    previewImage: "../../assets/preview/devfinances.png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -170,7 +170,7 @@ export default [
     title: "Huddle",
     description: "Landing Page de uma plataforma para criação de comunidades",
     link: "https://lucasregisdemoraes.github.io/huddle",
-    previewImage: "../assets/preview/huddle.png",
+    previewImage: "../../assets/preview/huddle.png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -193,7 +193,7 @@ export default [
     title: "Aluratube",
     description: "Projeto realizado na imersão React Alura",
     link: "https://aluratube-gamma-nine.vercel.app/",
-    previewImage: "../assets/preview/aluratube.png",
+    previewImage: "../../assets/preview/aluratube.png",
     filterBy: ["Inspirado", "Evento", "React"],
     tags: [
       {
@@ -216,7 +216,7 @@ export default [
     title: "My Money",
     description: "Meu gerenciador de dinheiro pessoal",
     link: "https://lucasregisdemoraes.github.io/my-money",
-    previewImage: "../assets/preview/my-money.png",
+    previewImage: "../../assets/preview/my-money.png",
     filterBy: ["Projeto Próprio"],
     tags: [
       {
@@ -239,7 +239,7 @@ export default [
     title: "Stock Manager",
     description: "App para gerenciamento de estoque",
     link: "https://lucasregisdemoraes.github.io/pages/projects",
-    previewImage: "../assets/preview/default.png",
+    previewImage: "../../assets/preview/default.png",
     filterBy: ["Projeto Próprio", "React Native"],
     tags: [
       {
@@ -257,7 +257,7 @@ export default [
     title: "To Do List",
     description: "Uma lista de afazeres",
     link: "https://lucasregisdemoraes.github.io/pages/projects",
-    previewImage: "../assets/preview/default.png",
+    previewImage: "../../assets/preview/default.png",
     filterBy: ["Inspirado", "React Native"],
     tags: [
       {
@@ -275,7 +275,7 @@ export default [
     title: "Calculadora",
     description: "Uma calculadora com dark mode ",
     link: "https://lucasregisdemoraes.github.io/pages/projects",
-    previewImage: "../assets/preview/default.png",
+    previewImage: "../../assets/preview/default.png",
     filterBy: ["Inspirado", "React Native"],
     tags: [
       {
@@ -293,7 +293,7 @@ export default [
     title: "7 projetos em 7 dias",
     description: 'Projetos do evento "7 projetos em 7 dias"',
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
-    previewImage: "../assets/preview/7-projetos-em-7-dias.png",
+    previewImage: "../../assets/preview/7-projetos-em-7-dias.png",
     filterBy: ["Inspirado", "Coleção", "Evento"],
     tags: [
       {
@@ -316,7 +316,7 @@ export default [
     title: "RocketCoffee",
     description: "Um cardápio de um café",
     link: "https://lucasregisdemoraes.github.io/rocketcoffee",
-    previewImage: "../assets/preview/rocketcoffee.png",
+    previewImage: "../../assets/preview/rocketcoffee.png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -339,7 +339,7 @@ export default [
     title: "AmazingGraph (DevChallenge)",
     description: "Landing Page simples",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/amazing-graph",
-    previewImage: "../assets/preview/amazinggraph(devchallenge).png",
+    previewImage: "../../assets/preview/amazinggraph(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -362,7 +362,7 @@ export default [
     title: "Bateria com Teclado (7 projetos em 7 dias)",
     description: "Bateria em que é usado o teclado para tocar",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/bateria-com-teclado",
-    previewImage: "../assets/preview/bateria-com-teclado(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/bateria-com-teclado(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -385,7 +385,7 @@ export default [
     title: "Clima (7 projetos em 7 dias)",
     description: "Página para conferir o clima por pesquisa de cidade",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/clima",
-    previewImage: "../assets/preview/clima(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/clima(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -408,7 +408,7 @@ export default [
     title: "Codar (DevChallenge)",
     description: "Landing Page de um empresa de criação de websites",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/codar",
-    previewImage: "../assets/preview/codar(devchallenge).png",
+    previewImage: "../../assets/preview/codar(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -431,7 +431,7 @@ export default [
     title: "DragNDrop (7 projetos em 7 dias)",
     description: "Página para teste de arrastar e soltar items ",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/dragndrop",
-    previewImage: "../assets/preview/dragndrop(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/dragndrop(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -454,7 +454,7 @@ export default [
     title: "Drawing (7 projetos em 7 dias)",
     description: "Página para fazer desenhos em um  quadro",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/drawing(desenhando)",
-    previewImage: "../assets/preview/drawing(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/drawing(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -477,7 +477,7 @@ export default [
     title: "GetCoffee (DevChallenge)",
     description: "Landing Page de um empresa que vende café",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/getcoffee",
-    previewImage: "../assets/preview/getcoffee(devchallenge).png",
+    previewImage: "../../assets/preview/getcoffee(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -500,7 +500,7 @@ export default [
     title: "Grab página de login (DevChallenge)",
     description: "Página de login",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/grab-pagina-de-login",
-    previewImage: "../assets/preview/grab-pagina-de-login(devchallenge).png",
+    previewImage: "../../assets/preview/grab-pagina-de-login(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -523,7 +523,7 @@ export default [
     title: "Minha página",
     description: "Minha página",
     link: "https://lucasregisdemoraes.github.io",
-    previewImage: "../assets/preview/minha-pagina.png",
+    previewImage: "../../assets/preview/minha-pagina.png",
     filterBy: ["Projeto Próprio"],
     tags: [
       {
@@ -546,7 +546,7 @@ export default [
     title: "Profile Component (DevChallenge)",
     description: "Cartão de um perfil",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/profilecomponent",
-    previewImage: "../assets/preview/profilecomponent(devchallenge).png",
+    previewImage: "../../assets/preview/profilecomponent(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -569,7 +569,7 @@ export default [
     title: "Quiz (7 projetos em 7 dias)",
     description: "Um quiz sobre desenvolvimento web",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/quiz",
-    previewImage: "../assets/preview/quiz(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/quiz(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -592,7 +592,7 @@ export default [
     title: "Relógio Analógico e Digital (7 projetos em 7 dias)",
     description: "Um relógio na forma analógica e digital",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/relogio-analogico-digital",
-    previewImage: "../assets/preview/relogio-analogico-digital(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/relogio-analogico-digital(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -615,7 +615,7 @@ export default [
     title: "SelfCare (DevChallenge)",
     description: "Página para venda de produtos para auto cuidado",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/selfcare",
-    previewImage: "../assets/preview/selfcare(devchallenge).png",
+    previewImage: "../../assets/preview/selfcare(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -638,7 +638,7 @@ export default [
     title: "Tic Tac Toe (7 projetos em 7 dias)",
     description: "Jogo da velha(tic tac toe)",
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias/tictactoe(jogo-da-velha)",
-    previewImage: "../assets/preview/tictactoe(7-projetos-em-7-dias).png",
+    previewImage: "../../assets/preview/tictactoe(7-projetos-em-7-dias).png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
@@ -661,7 +661,7 @@ export default [
     title: "Wise Goat (DevChallenge)",
     description: "Página para receber conselhos aleatórios",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/wisegoat",
-    previewImage: "../assets/preview/wisegoat(devchallenge).png",
+    previewImage: "../../assets/preview/wisegoat(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -684,7 +684,7 @@ export default [
     title: "Work Plin (DevChallenge)",
     description: "Página para marcar reuniões de trabalho",
     link: "https://lucasregisdemoraes.github.io/devchallenge/challenges/work-plin",
-    previewImage: "../assets/preview/work-plin(devchallenge).png",
+    previewImage: "../../assets/preview/work-plin(devchallenge).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -707,7 +707,7 @@ export default [
     title: "BoraCodar",
     description: "Desafios do #boraCodar concluídos por mim",
     link: "https://lucasregisdemoraes.github.io/boracodar",
-    previewImage: "../assets/preview/boracodar.png",
+    previewImage: "../../assets/preview/boracodar.png",
     filterBy: ["Inspirado", "Coleção"],
     tags: [
       {
@@ -731,7 +731,7 @@ export default [
     title: "Conversor de Moedas (BoraCodar)",
     description: "Página para converter moedas",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/conversor-de-moedas",
-    previewImage: "../assets/preview/conversor-de-moedas(boracodar).png",
+    previewImage: "../../assets/preview/conversor-de-moedas(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -754,7 +754,7 @@ export default [
     title: "KanBan (BoraCodar)",
     description: "Página de KanKan",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/kanban",
-    previewImage: "../assets/preview/kanban(boracodar).png",
+    previewImage: "../../assets/preview/kanban(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -777,7 +777,7 @@ export default [
     title: "Página de Clima (BoraCodar)",
     description: "Página de clima",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-de-clima",
-    previewImage: "../assets/preview/pagina-de-clima(boracodar).png",
+    previewImage: "../../assets/preview/pagina-de-clima(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -800,7 +800,7 @@ export default [
     title: "Tela de Login (BoraCodar)",
     description: "Tela de login",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/tela-de-login",
-    previewImage: "../assets/preview/tela-de-login(boracodar).png",
+    previewImage: "../../assets/preview/tela-de-login(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -824,7 +824,7 @@ export default [
     description: "Formulário de Cartão",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/formulario-de-cartao",
-    previewImage: "../assets/preview/formulario-de-cartao(boracodar).png",
+    previewImage: "../../assets/preview/formulario-de-cartao(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -850,7 +850,7 @@ export default [
     description: "Componente de Upload",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/componente-de-upload",
-    previewImage: "../assets/preview/componente-de-upload(boracodar).png",
+    previewImage: "../../assets/preview/componente-de-upload(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -876,7 +876,7 @@ export default [
     description: "Tabela para assinatura de planos",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/pricing-table",
-    previewImage: "../assets/preview/pricing-table(boracodar).png",
+    previewImage: "../../assets/preview/pricing-table(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -902,7 +902,7 @@ export default [
     description: "Página de Contatos",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-de-contatos",
-    previewImage: "../assets/preview/pagina-de-contatos(boracodar).png",
+    previewImage: "../../assets/preview/pagina-de-contatos(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -928,7 +928,7 @@ export default [
     description: "Seletor de data",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/date-picker",
-    previewImage: "../assets/preview/date-picker(boracodar).png",
+    previewImage: "../../assets/preview/date-picker(boracodar).png",
     filterBy: ["Inspirado"],
     tags: [
       {
@@ -954,7 +954,7 @@ export default [
     description: "Site semelhante ao Orkut feito utilizando React JS",
     link:
       "https://alurakut-seven-ashy.vercel.app/",
-    previewImage: "../assets/preview/alurakut.png",
+    previewImage: "../../assets/preview/alurakut.png",
     filterBy: ["Inspirado", "Evento", "React"],
     tags: [
       {
@@ -979,7 +979,7 @@ export default [
     title: "Habits",
     description: "Um gerenciador de hábitos",
     link: "https://lucasregisdemoraes.github.io/habits",
-    previewImage: "../assets/preview/habits.png",
+    previewImage: "../../assets/preview/habits.png",
     filterBy: ["Inspirado", "Evento"],
     tags: [
       {
