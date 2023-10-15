@@ -27,6 +27,7 @@ main {
             height: 105vh;
             justify-content: center;
             align-items: center;
+            align-content: center;
             gap: 50px;
 
             .intro {
@@ -107,8 +108,6 @@ main {
 
 @media (min-width: 800px) {
     main section#home .container {
-        flex-direction: row;
-
         .intro {
             h1 {
                 font-size: 62px;
