@@ -9,22 +9,54 @@ function loadApp() {
     updateProjectsNumber(projects.length, projects.length)
 }
 
+
+
+// Criar função para filtrar por tipo de projeto
+
+// Criar função para filtrar por tecnologia usada
+
+
+
+
 function updateProjectsNumber(currentProjectsNumber, totalProjectsNumber) {
     currentProjectsNumberElement.textContent = currentProjectsNumber
     totalProjectsNumberElement.textContent = totalProjectsNumber
 }
 
+function getTechIcon(tech) {
+    let techIconName = tech.toLowerCase()
+    techIconName = techIconName.replaceAll(" ", "")
+
+    const techs = {
+        html: "html5",
+        css: "css3",
+        javascript: "javascript",
+        sass: "sass",
+        react: "react",
+        reactnative: "react",
+    }
+
+    return `<ion-icon name="logo-${techs[techIconName]}" title="${tech}"></ion-icon>`
+}
+
 function renderProjects(projects, listElement) {
     listElement.innerHTML = ""
-    projects.forEach(project => {
+    projects.forEach(({ title, link, previewImage, techs }) => {
         const li = document.createElement("li")
         li.innerHTML = `
-            <li>
-                <a href="#">
-                    <img src="${project.previewImage}" alt="${project.title}">
-                    <span class="sr-only">Projeto</span>
+                <div class="image-container">
+                <a href="${link}" target="_blank" rel="noopener noreferrer external">
+                    <img src="${previewImage}" alt="Imagem do projeto ${title}">
+                    <span class="sr-only">${title}</span>
                 </a>
-            </li>
+                <ul class="techs">
+                    ${techs.map(tech => `
+                    <li>
+                        ${getTechIcon(tech)}
+                    </li>`).join("")}
+                </ul>
+                </div>
+                <h2>${title}</h2>
         `
         listElement.appendChild(li)
     })

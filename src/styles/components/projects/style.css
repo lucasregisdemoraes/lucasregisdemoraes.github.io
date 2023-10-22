@@ -13,25 +13,59 @@ section#projects .container .title-container ion-icon {
     transform: translateX(0px);
   }
 }
-section#projects .container ul {
+section#projects .container #projects-list {
   display: flex;
-  gap: 20px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  height: 500px;
+  gap: 50px 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-section#projects .container ul li {
+section#projects .container #projects-list > li {
   flex-shrink: 0;
-  flex-basis: min(80%, 300px);
-  overflow: hidden;
+  flex-basis: min(80%, 250px);
+  display: grid;
+  gap: 10px;
 }
-section#projects .container ul li a:hover img, section#projects .container ul li a:focus img {
+section#projects .container #projects-list > li .image-container {
+  overflow: hidden;
+  position: relative;
+}
+section#projects .container #projects-list > li .image-container a {
+  color: black;
+}
+section#projects .container #projects-list > li .image-container a:hover img, section#projects .container #projects-list > li .image-container a:focus img {
   transform: scale(1.2);
 }
-section#projects .container ul li a img {
+section#projects .container #projects-list > li .image-container a img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 100%;
+  height: 200px;
   width: 100%;
   transition: 200ms;
+}
+section#projects .container #projects-list > li .image-container .techs {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: right;
+}
+section#projects .container #projects-list > li .image-container .techs li {
+  background-color: black;
+  border-radius: 999px;
+  padding: 8px;
+  display: flex;
+}
+section#projects .container #projects-list > li .image-container .techs li ion-icon {
+  color: white;
+  font-size: 20px;
+}
+section#projects .container #projects-list > li h2 {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

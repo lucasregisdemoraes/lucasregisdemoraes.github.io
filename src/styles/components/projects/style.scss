@@ -21,33 +21,70 @@ section#projects {
             }
         }
 
-        ul {
+        #projects-list {
             display: flex;
-            gap: 20px;
-            overflow-x: scroll;
-            overflow-y: hidden;
-            height: 500px;
+            gap: 50px 20px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
 
-            li {
+            &>li {
                 flex-shrink: 0;
-                flex-basis: min(80%, 300px);
-                overflow: hidden;
+                flex-basis: min(80%, 250px);
+                display: grid;
+                gap: 10px;
 
-                a {
+                .image-container {
+                    overflow: hidden;
+                    position: relative;
 
-                    &:hover,
-                    &:focus {
+                    a {
+                        color: black;
+
+                        &:hover,
+                        &:focus {
+                            img {
+                                transform: scale(1.2);
+                            }
+                        }
+
                         img {
-                            transform: scale(1.2);
+                            object-fit: cover;
+                            height: 200px;
+                            width: 100%;
+                            transition: 200ms;
                         }
                     }
 
-                    img {
-                        object-fit: cover;
-                        height: 100%;
-                        width: 100%;
-                        transition: 200ms;
+                    .techs {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        padding: 10px;
+                        display: flex;
+                        max-width: 100%;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        justify-content: right;
+
+                        li {
+                            background-color: black;
+                            border-radius: 999px;
+                            padding: 8px;
+                            display: flex;
+
+                            ion-icon {
+                                color: white;
+                                font-size: 20px;
+                            }
+                        }
                     }
+                }
+
+                h2 {
+                    font-size: 20px;
+                    line-height: 20px;
+                    text-align: center;
                 }
             }
         }
