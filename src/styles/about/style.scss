@@ -21,10 +21,15 @@ section#chat {
             border-radius: 22px;
             padding: 10px;
             font-size: 20px;
-            line-height: 20px;
+            line-height: 24px;
             width: max-content;
             max-width: 70%;
             font-weight: 400;
+
+            ul {
+                padding-left: 20px;
+                margin-top: 5px;
+            }
         }
 
         .answer {

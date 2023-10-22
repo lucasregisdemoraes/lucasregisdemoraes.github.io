@@ -15,11 +15,16 @@ section#chat .container .answer {
   border-radius: 22px;
   padding: 10px;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 24px;
   width: -moz-max-content;
   width: max-content;
   max-width: 70%;
   font-weight: 400;
+}
+section#chat .container .question ul,
+section#chat .container .answer ul {
+  padding-left: 20px;
+  margin-top: 5px;
 }
 section#chat .container .answer {
   margin-left: auto;
