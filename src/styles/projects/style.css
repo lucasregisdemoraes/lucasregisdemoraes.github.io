@@ -36,43 +36,58 @@ main section#filter .container #projects-number {
   color: white;
   animation: appear 750ms backwards 1.8s;
 }
-main section#filter .container .techs {
+main section#filter .container .techs-div {
+  display: grid;
+  gap: 14px;
+}
+main section#filter .container .techs-div p {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  gap: 8px;
+  animation: appear 750ms backwards 1.8s;
+}
+main section#filter .container .techs-div p .arrow-down {
+  font-size: 28px;
+  animation: bounce 2s infinite;
+}
+main section#filter .container .techs-div .techs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
-main section#filter .container .techs li:nth-child(1) {
+main section#filter .container .techs-div .techs li:nth-child(1) {
   animation-delay: 700ms, 3200ms;
 }
-main section#filter .container .techs li:nth-child(2) {
+main section#filter .container .techs-div .techs li:nth-child(2) {
   animation-delay: 900ms, 3400ms;
 }
-main section#filter .container .techs li:nth-child(3) {
+main section#filter .container .techs-div .techs li:nth-child(3) {
   animation-delay: 1100ms, 3600ms;
 }
-main section#filter .container .techs li:nth-child(4) {
+main section#filter .container .techs-div .techs li:nth-child(4) {
   animation-delay: 1300ms, 3800ms;
 }
-main section#filter .container .techs li:nth-child(5) {
+main section#filter .container .techs-div .techs li:nth-child(5) {
   animation-delay: 1500ms, 4000ms;
 }
-main section#filter .container .techs li:nth-child(6) {
+main section#filter .container .techs-div .techs li:nth-child(6) {
   animation-delay: 1700ms, 4200ms;
 }
-main section#filter .container .techs li {
+main section#filter .container .techs-div .techs li {
   animation: appear 750ms backwards, bounce 3s infinite;
 }
-main section#filter .container .techs li input:checked + label {
+main section#filter .container .techs-div .techs li input:checked + label {
   transform: scale(1);
   opacity: 1;
 }
-main section#filter .container .techs li input:focus + label,
-main section#filter .container .techs li label:hover {
+main section#filter .container .techs-div .techs li input:focus + label,
+main section#filter .container .techs-div .techs li label:hover {
   transform: scale(1);
   outline: white solid 2px;
 }
-main section#filter .container .techs li label {
+main section#filter .container .techs-div .techs li label {
   display: flex;
   cursor: pointer;
   border-radius: 10px;
@@ -81,22 +96,33 @@ main section#filter .container .techs li label {
   opacity: 0.5;
   transform: scale(0.7);
 }
-main section#filter .container .techs li label ion-icon {
+main section#filter .container .techs-div .techs li label ion-icon {
   color: white;
   font-size: 44px;
 }
 main section#filter .container .filter-by-div {
   color: white;
   display: grid;
-  gap: 5px;
+  gap: 14px;
   animation: appear 750ms backwards 1.8s;
+}
+main section#filter .container .filter-by-div p {
+  justify-content: center;
+  display: flex;
+  gap: 8px;
+}
+main section#filter .container .filter-by-div .arrow-down {
+  align-items: center;
+  font-size: 28px;
+  animation: bounce 2s infinite;
 }
 main section#filter .container .filter-by-div select {
   color: white;
   background-color: black;
-  border: none;
+  border: 1px solid white;
+  border-bottom: none;
   font-size: 20px;
-  padding: 16px;
+  padding: 12px;
   border-radius: 8px 8px 0px 0px;
   outline: none;
   cursor: pointer;

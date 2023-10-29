@@ -51,46 +51,64 @@ main {
                 animation: appear 750ms backwards 1.8s;
             }
 
-            .techs {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 10px;
+            .techs-div {
+                display: grid;
+                gap: 14px;
 
-                $items: 6;
+                p {
+                    color: $secondaryTextColor;
+                    font-size: 20px;
+                    display: flex;
+                    gap: 8px;
+                    animation: appear 750ms backwards 1.8s;
 
-                @for $i from 1 through $items {
-                    li:nth-child(#{$i}) {
-                        animation-delay: $i * 200ms + 500ms, $i * 200ms + 3s;
+                    .arrow-down {
+                        font-size: 28px;
+                        animation: bounce 2s infinite;
                     }
                 }
 
-                li {
-                    animation: appear 750ms backwards, bounce 3s infinite;
+                .techs {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 10px;
 
-                    input:checked+label {
-                        transform: scale(1);
-                        opacity: 1;
+                    $items: 6;
+
+                    @for $i from 1 through $items {
+                        li:nth-child(#{$i}) {
+                            animation-delay: $i * 200ms + 500ms, $i * 200ms + 3s;
+                        }
                     }
 
-                    input:focus+label,
-                    label:hover {
-                        transform: scale(1);
-                        outline: $secondaryTextColor solid 2px;
-                    }
+                    li {
+                        animation: appear 750ms backwards, bounce 3s infinite;
 
-                    label {
-                        display: flex;
-                        cursor: pointer;
-                        border-radius: 10px;
-                        padding: 2px;
-                        transition: transform 0.5s, opacity 0.3s, outline 0.3s;
-                        opacity: .5;
-                        transform: scale(0.7);
+                        input:checked+label {
+                            transform: scale(1);
+                            opacity: 1;
+                        }
 
-                        ion-icon {
-                            color: $secondaryTextColor;
-                            font-size: 44px;
+                        input:focus+label,
+                        label:hover {
+                            transform: scale(1);
+                            outline: $secondaryTextColor solid 2px;
+                        }
+
+                        label {
+                            display: flex;
+                            cursor: pointer;
+                            border-radius: 10px;
+                            padding: 2px;
+                            transition: transform 0.5s, opacity 0.3s, outline 0.3s;
+                            opacity: .5;
+                            transform: scale(0.7);
+
+                            ion-icon {
+                                color: $secondaryTextColor;
+                                font-size: 44px;
+                            }
                         }
                     }
                 }
@@ -99,15 +117,28 @@ main {
             .filter-by-div {
                 color: $secondaryTextColor;
                 display: grid;
-                gap: 5px;
+                gap: 14px;
                 animation: appear 750ms backwards 1.8s;
+
+                p {
+                    justify-content: center;
+                    display: flex;
+                    gap: 8px;
+                }
+
+                .arrow-down {
+                    align-items: center;
+                    font-size: 28px;
+                    animation: bounce 2s infinite;
+                }
 
                 select {
                     color: $secondaryTextColor;
                     background-color: $secondaryBackgroundColor;
-                    border: none;
+                    border: 1px solid $secondaryTextColor;
+                    border-bottom: none;
                     font-size: 20px;
-                    padding: 16px;
+                    padding: 12px;
                     border-radius: 8px 8px 0px 0px;
                     outline: none;
                     cursor: pointer;

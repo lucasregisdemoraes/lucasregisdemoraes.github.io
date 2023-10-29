@@ -22,59 +22,68 @@
                 <p id="projects-number"><span id="current-projects-number">0</span> de <span
                         id="total-projects-number"></span> Projetos
                 </p>
-                <ul class="techs">
-                    <li>
-                        <input checked class="sr-only" type="checkbox" value="html" name="tech" id="tech-html">
-                        <label title="HTML" for="tech-html">
-                            <ion-icon name="logo-html5"></ion-icon>
-                            <span class="sr-only">HTML</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input checked class="sr-only" type="checkbox" value="css" name="tech" id="tech-css">
-                        <label title="CSS" for="tech-css">
-                            <ion-icon name="logo-css3"></ion-icon>
-                            <span class="sr-only">CSS</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input checked class="sr-only" type="checkbox" value="javascript" name="tech"
-                            id="tech-javascript">
-                        <label title="JavaScript" for="tech-javascript">
-                            <ion-icon name="logo-javascript"></ion-icon>
-                            <span class="sr-only">JavaScript</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input checked class="sr-only" type="checkbox" value="sass" name="tech" id="tech-sass">
-                        <label title="SASS" for="tech-sass">
-                            <ion-icon name="logo-sass"></ion-icon>
-                            <span class="sr-only">SASS</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input checked class="sr-only" type="checkbox" value="react" name="tech" id="tech-react">
-                        <label title="ReactJS" for="tech-react">
-                            <ion-icon name="logo-react"></ion-icon>
-                            <span class="sr-only">ReactJS</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input checked class="sr-only" type="checkbox" value="react-native" name="tech"
-                            id="tech-react-native">
-                        <label title="React Native" for="tech-react-native">
-                            <ion-icon name="logo-react"></ion-icon>
-                            <span class="sr-only">React Native</span>
-                        </label>
-                    </li>
-                </ul>
+                <div class="techs-div">
+                    <p>
+                        <span>Filtrar por tecnologias usadas:</span>
+                        <ion-icon class="arrow-down" name="arrow-down"></ion-icon>
+                    </p>
+                    <ul class="techs">
+                        <li>
+                            <input checked class="sr-only" type="checkbox" value="html" name="tech" id="tech-html">
+                            <label title="HTML" for="tech-html">
+                                <ion-icon name="logo-html5"></ion-icon>
+                                <span class="sr-only">HTML</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input checked class="sr-only" type="checkbox" value="css" name="tech" id="tech-css">
+                            <label title="CSS" for="tech-css">
+                                <ion-icon name="logo-css3"></ion-icon>
+                                <span class="sr-only">CSS</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input checked class="sr-only" type="checkbox" value="javascript" name="tech"
+                                id="tech-javascript">
+                            <label title="JavaScript" for="tech-javascript">
+                                <ion-icon name="logo-javascript"></ion-icon>
+                                <span class="sr-only">JavaScript</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input checked class="sr-only" type="checkbox" value="sass" name="tech" id="tech-sass">
+                            <label title="SASS" for="tech-sass">
+                                <ion-icon name="logo-sass"></ion-icon>
+                                <span class="sr-only">SASS</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input checked class="sr-only" type="checkbox" value="react" name="tech" id="tech-react">
+                            <label title="ReactJS" for="tech-react">
+                                <ion-icon name="logo-react"></ion-icon>
+                                <span class="sr-only">ReactJS</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input checked class="sr-only" type="checkbox" value="react-native" name="tech"
+                                id="tech-react-native">
+                            <label title="React Native" for="tech-react-native">
+                                <ion-icon name="logo-react"></ion-icon>
+                                <span class="sr-only">React Native</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
                 <div class="filter-by-div">
-                    <p>Filtrar por:</p>
+                    <p>
+                        <span>Mostrar projetos:</span>
+                        <ion-icon class="arrow-down" name="arrow-down"></ion-icon>
+                    </p>
                     <select title="Filtrar por" name="filterBy" id="filterBy">
                         <option value="Todos">Todos</option>
-                        <option value="Projeto Próprio">Projetos Próprios</option>
-                        <option value="Coleção">Coleções</option>
-                        <option value="Evento">Eventos</option>
+                        <option value="Projeto Próprio">Próprios</option>
+                        <option value="Coleção">Em coleções</option>
+                        <option value="Evento">Feitos em eventos</option>
                         <option value="Inspirado">Inspirados</option>
                     </select>
                 </div>
