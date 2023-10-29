@@ -28,11 +28,58 @@ section#projects {
             align-items: center;
             justify-content: center;
 
+            @keyframes appear {
+                from {
+                    opacity: 0;
+                    transform: translateY(-30px);
+                }
+            }
+
+            @keyframes bounce-techs {
+                0% {
+                    transform: translateY(0px);
+                }
+
+                30% {
+                    transform: translateY(0px);
+                }
+
+                50% {
+                    transform: translateY(-10px);
+                }
+
+                70% {
+                    transform: translateY(0px);
+                }
+
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+
+            $items: 60;
+
+            @for $i from 1 through $items {
+                &>li:nth-child(#{$i}) {
+                    $delay: $i * 200ms+1.5s;
+                    animation-delay: $delay;
+
+                    $items: 6;
+
+                    @for $i from 1 through $items {
+                        & .techs>li:nth-child(#{$i}) {
+                            animation-delay: 200ms * $i + $delay;
+                        }
+                    }
+                }
+            }
+
             &>li {
                 flex-shrink: 0;
                 flex-basis: min(80%, 250px);
                 display: grid;
                 gap: 10px;
+                animation: appear 500ms backwards;
 
                 .image-container {
                     overflow: hidden;
@@ -67,11 +114,13 @@ section#projects {
                         gap: 10px;
                         justify-content: right;
 
+
                         li {
                             background-color: black;
                             border-radius: 999px;
                             padding: 8px;
                             display: flex;
+                            animation: appear 500ms backwards, bounce-techs 2s infinite;
 
                             ion-icon {
                                 color: white;

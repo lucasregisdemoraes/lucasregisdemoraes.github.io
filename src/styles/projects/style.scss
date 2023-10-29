@@ -6,6 +6,35 @@ $secondaryTextColor: white;
 $thirdTextColor: #a0a0a0;
 
 main {
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+    }
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0px);
+        }
+
+        30% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+
+        70% {
+            transform: translateY(0px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
     section#filter {
         background-color: $secondaryBackgroundColor;
 
@@ -19,6 +48,7 @@ main {
 
             #projects-number {
                 color: $secondaryTextColor;
+                animation: appear 750ms backwards 1.8s;
             }
 
             .techs {
@@ -27,7 +57,17 @@ main {
                 justify-content: center;
                 gap: 10px;
 
+                $items: 6;
+
+                @for $i from 1 through $items {
+                    li:nth-child(#{$i}) {
+                        animation-delay: $i * 200ms + 500ms, $i * 200ms + 3s;
+                    }
+                }
+
                 li {
+                    animation: appear 750ms backwards, bounce 3s infinite;
+
                     input:checked+label {
                         transform: scale(1);
                         opacity: 1;
@@ -60,6 +100,7 @@ main {
                 color: $secondaryTextColor;
                 display: grid;
                 gap: 5px;
+                animation: appear 750ms backwards 1.8s;
 
                 select {
                     color: $secondaryTextColor;

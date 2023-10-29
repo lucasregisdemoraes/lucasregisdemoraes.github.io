@@ -7,6 +7,18 @@ section#chat .container {
   flex-direction: column;
   gap: 16px;
 }
+@keyframes appear-right {
+  from {
+    transform: translateX(80px);
+    opacity: 0;
+  }
+}
+@keyframes appear-left {
+  from {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+}
 section#chat .container .question,
 section#chat .container .answer {
   background-color: white;
@@ -26,8 +38,44 @@ section#chat .container .answer ul {
   padding-left: 20px;
   margin-top: 5px;
 }
+section#chat .container .question {
+  animation: appear-left 1s backwards;
+}
 section#chat .container .answer {
   margin-left: auto;
   background-color: transparent;
   color: white;
+  animation: appear-right 1s backwards;
+}
+section#chat .container .question:nth-child(1),
+section#chat .container .answer:nth-child(1) {
+  animation-delay: 200ms;
+}
+section#chat .container .question:nth-child(2),
+section#chat .container .answer:nth-child(2) {
+  animation-delay: 400ms;
+}
+section#chat .container .question:nth-child(3),
+section#chat .container .answer:nth-child(3) {
+  animation-delay: 600ms;
+}
+section#chat .container .question:nth-child(4),
+section#chat .container .answer:nth-child(4) {
+  animation-delay: 800ms;
+}
+section#chat .container .question:nth-child(5),
+section#chat .container .answer:nth-child(5) {
+  animation-delay: 1000ms;
+}
+section#chat .container .question:nth-child(6),
+section#chat .container .answer:nth-child(6) {
+  animation-delay: 1200ms;
+}
+section#chat .container .question:nth-child(7),
+section#chat .container .answer:nth-child(7) {
+  animation-delay: 1400ms;
+}
+section#chat .container .question:nth-child(8),
+section#chat .container .answer:nth-child(8) {
+  animation-delay: 1600ms;
 }/*# sourceMappingURL=style.css.map */

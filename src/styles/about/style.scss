@@ -13,6 +13,20 @@ section#chat {
         flex-direction: column;
         gap: 16px;
 
+        @keyframes appear-right {
+            from {
+                transform: translateX(80px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes appear-left {
+            from {
+                transform: translateX(-80px);
+                opacity: 0;
+            }
+        }
+
         .question,
         .answer {
             background-color: $mainBackgroundColor;
@@ -32,10 +46,25 @@ section#chat {
             }
         }
 
+        .question {
+            animation: appear-left 1s backwards;
+        }
+
         .answer {
             margin-left: auto;
             background-color: transparent;
             color: $secondaryTextColor;
+            animation: appear-right 1s backwards;
+        }
+
+        $items: calc(8);
+
+        @for $i from 1 through $items {
+
+            .question:nth-child(#{$i}),
+            .answer:nth-child(#{$i}) {
+                animation-delay: $i * 200ms;
+            }
         }
     }
 }

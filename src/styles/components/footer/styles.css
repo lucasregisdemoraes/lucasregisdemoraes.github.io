@@ -2,6 +2,23 @@ footer {
   background-color: black;
   color: white;
 }
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 footer .container {
   padding: 80px 0;
   display: grid;
@@ -15,6 +32,18 @@ footer .container h2 {
 footer .container ul {
   display: flex;
   gap: 30px;
+}
+footer .container ul li:nth-child(1) {
+  animation-delay: 200ms;
+}
+footer .container ul li:nth-child(2) {
+  animation-delay: 400ms;
+}
+footer .container ul li:nth-child(3) {
+  animation-delay: 600ms;
+}
+footer .container ul li {
+  animation: bounce 3s infinite;
 }
 footer .container ul li a {
   outline: none;

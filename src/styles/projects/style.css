@@ -1,3 +1,26 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  70% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 main section#filter {
   background-color: black;
 }
@@ -11,12 +34,34 @@ main section#filter .container {
 }
 main section#filter .container #projects-number {
   color: white;
+  animation: appear 750ms backwards 1.8s;
 }
 main section#filter .container .techs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+}
+main section#filter .container .techs li:nth-child(1) {
+  animation-delay: 700ms, 3200ms;
+}
+main section#filter .container .techs li:nth-child(2) {
+  animation-delay: 900ms, 3400ms;
+}
+main section#filter .container .techs li:nth-child(3) {
+  animation-delay: 1100ms, 3600ms;
+}
+main section#filter .container .techs li:nth-child(4) {
+  animation-delay: 1300ms, 3800ms;
+}
+main section#filter .container .techs li:nth-child(5) {
+  animation-delay: 1500ms, 4000ms;
+}
+main section#filter .container .techs li:nth-child(6) {
+  animation-delay: 1700ms, 4200ms;
+}
+main section#filter .container .techs li {
+  animation: appear 750ms backwards, bounce 3s infinite;
 }
 main section#filter .container .techs li input:checked + label {
   transform: scale(1);
@@ -44,6 +89,7 @@ main section#filter .container .filter-by-div {
   color: white;
   display: grid;
   gap: 5px;
+  animation: appear 750ms backwards 1.8s;
 }
 main section#filter .container .filter-by-div select {
   color: white;

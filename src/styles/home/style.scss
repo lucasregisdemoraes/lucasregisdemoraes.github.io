@@ -23,6 +23,42 @@ main {
         background-color: $secondaryBackgroundColor;
         color: $secondaryTextColor;
 
+        @keyframes appear-left {
+            from {
+                transform: translateX(-50px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes appear-bottom {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0px);
+            }
+
+            30% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-30px);
+            }
+
+            70% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
         .container {
             height: 105vh;
             justify-content: center;
@@ -35,6 +71,7 @@ main {
                 display: grid;
                 gap: 10px;
                 margin-inline: auto;
+                animation: appear-left 1s;
 
                 h1 {
                     font-size: 48px;
@@ -54,6 +91,8 @@ main {
                 gap: 20px 10px;
 
                 li {
+                    animation: appear-bottom 1s backwards, bounce 4s infinite;
+
                     ion-icon {
                         font-size: 45px;
                         transition: transform 300ms;
@@ -61,6 +100,14 @@ main {
                         &:hover {
                             transform: scale(1.5) translateY(-10px);
                         }
+                    }
+                }
+
+                $items: 7;
+
+                @for $i from 1 through $items {
+                    li:nth-child(#{$i}) {
+                        animation-delay: $i * 200ms, $i * 300ms + 700ms;
                     }
                 }
             }
