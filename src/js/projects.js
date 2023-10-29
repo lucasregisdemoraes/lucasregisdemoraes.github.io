@@ -8,10 +8,10 @@ const filterByElement = document.getElementById("filterBy")
 const techElements = document.getElementsByName("tech")
 
 function loadApp() {
-    let projects = getFilteredProjects(filterByElement.value)
-    projects = getFilteredProjectsByTechs(projects)
-    renderProjects(projects, listElement)
-    updateProjectsNumber(projects.length, projects.length)
+    let projectsList = getFilteredProjects(filterByElement.value)
+    projectsList = getFilteredProjectsByTechs(projectsList)
+    renderProjects(projectsList, listElement)
+    updateProjectsNumber(projectsList.length, projects.length)
 }
 
 function getFilteredProjects(filterValue) {
