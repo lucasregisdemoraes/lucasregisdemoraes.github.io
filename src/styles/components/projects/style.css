@@ -44,1264 +44,1264 @@ section#projects .container #projects-list {
   }
 }
 section#projects .container #projects-list > li:nth-child(1) {
-  animation-delay: 1700ms;
+  animation-delay: 400ms;
 }
 section#projects .container #projects-list > li:nth-child(1) .techs > li:nth-child(1) {
-  animation-delay: 1900ms;
+  animation-delay: 600ms;
 }
 section#projects .container #projects-list > li:nth-child(1) .techs > li:nth-child(2) {
-  animation-delay: 2100ms;
+  animation-delay: 800ms;
 }
 section#projects .container #projects-list > li:nth-child(1) .techs > li:nth-child(3) {
-  animation-delay: 2300ms;
+  animation-delay: 1000ms;
 }
 section#projects .container #projects-list > li:nth-child(1) .techs > li:nth-child(4) {
-  animation-delay: 2500ms;
+  animation-delay: 1200ms;
 }
 section#projects .container #projects-list > li:nth-child(1) .techs > li:nth-child(5) {
-  animation-delay: 2700ms;
+  animation-delay: 1400ms;
 }
 section#projects .container #projects-list > li:nth-child(1) .techs > li:nth-child(6) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(2) {
-  animation-delay: 1900ms;
+  animation-delay: 600ms;
 }
 section#projects .container #projects-list > li:nth-child(2) .techs > li:nth-child(1) {
-  animation-delay: 2100ms;
+  animation-delay: 800ms;
 }
 section#projects .container #projects-list > li:nth-child(2) .techs > li:nth-child(2) {
-  animation-delay: 2300ms;
+  animation-delay: 1000ms;
 }
 section#projects .container #projects-list > li:nth-child(2) .techs > li:nth-child(3) {
-  animation-delay: 2500ms;
+  animation-delay: 1200ms;
 }
 section#projects .container #projects-list > li:nth-child(2) .techs > li:nth-child(4) {
-  animation-delay: 2700ms;
+  animation-delay: 1400ms;
 }
 section#projects .container #projects-list > li:nth-child(2) .techs > li:nth-child(5) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(2) .techs > li:nth-child(6) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(3) {
-  animation-delay: 2100ms;
+  animation-delay: 800ms;
 }
 section#projects .container #projects-list > li:nth-child(3) .techs > li:nth-child(1) {
-  animation-delay: 2300ms;
+  animation-delay: 1000ms;
 }
 section#projects .container #projects-list > li:nth-child(3) .techs > li:nth-child(2) {
-  animation-delay: 2500ms;
+  animation-delay: 1200ms;
 }
 section#projects .container #projects-list > li:nth-child(3) .techs > li:nth-child(3) {
-  animation-delay: 2700ms;
+  animation-delay: 1400ms;
 }
 section#projects .container #projects-list > li:nth-child(3) .techs > li:nth-child(4) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(3) .techs > li:nth-child(5) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(3) .techs > li:nth-child(6) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(4) {
-  animation-delay: 2300ms;
+  animation-delay: 1000ms;
 }
 section#projects .container #projects-list > li:nth-child(4) .techs > li:nth-child(1) {
-  animation-delay: 2500ms;
+  animation-delay: 1200ms;
 }
 section#projects .container #projects-list > li:nth-child(4) .techs > li:nth-child(2) {
-  animation-delay: 2700ms;
+  animation-delay: 1400ms;
 }
 section#projects .container #projects-list > li:nth-child(4) .techs > li:nth-child(3) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(4) .techs > li:nth-child(4) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(4) .techs > li:nth-child(5) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(4) .techs > li:nth-child(6) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(5) {
-  animation-delay: 2500ms;
+  animation-delay: 1200ms;
 }
 section#projects .container #projects-list > li:nth-child(5) .techs > li:nth-child(1) {
-  animation-delay: 2700ms;
+  animation-delay: 1400ms;
 }
 section#projects .container #projects-list > li:nth-child(5) .techs > li:nth-child(2) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(5) .techs > li:nth-child(3) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(5) .techs > li:nth-child(4) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(5) .techs > li:nth-child(5) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(5) .techs > li:nth-child(6) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(6) {
-  animation-delay: 2700ms;
+  animation-delay: 1400ms;
 }
 section#projects .container #projects-list > li:nth-child(6) .techs > li:nth-child(1) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(6) .techs > li:nth-child(2) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(6) .techs > li:nth-child(3) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(6) .techs > li:nth-child(4) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(6) .techs > li:nth-child(5) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(6) .techs > li:nth-child(6) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(7) {
-  animation-delay: 2900ms;
+  animation-delay: 1600ms;
 }
 section#projects .container #projects-list > li:nth-child(7) .techs > li:nth-child(1) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(7) .techs > li:nth-child(2) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(7) .techs > li:nth-child(3) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(7) .techs > li:nth-child(4) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(7) .techs > li:nth-child(5) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(7) .techs > li:nth-child(6) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(8) {
-  animation-delay: 3100ms;
+  animation-delay: 1800ms;
 }
 section#projects .container #projects-list > li:nth-child(8) .techs > li:nth-child(1) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(8) .techs > li:nth-child(2) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(8) .techs > li:nth-child(3) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(8) .techs > li:nth-child(4) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(8) .techs > li:nth-child(5) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(8) .techs > li:nth-child(6) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(9) {
-  animation-delay: 3300ms;
+  animation-delay: 2000ms;
 }
 section#projects .container #projects-list > li:nth-child(9) .techs > li:nth-child(1) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(9) .techs > li:nth-child(2) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(9) .techs > li:nth-child(3) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(9) .techs > li:nth-child(4) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(9) .techs > li:nth-child(5) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(9) .techs > li:nth-child(6) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(10) {
-  animation-delay: 3500ms;
+  animation-delay: 2200ms;
 }
 section#projects .container #projects-list > li:nth-child(10) .techs > li:nth-child(1) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(10) .techs > li:nth-child(2) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(10) .techs > li:nth-child(3) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(10) .techs > li:nth-child(4) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(10) .techs > li:nth-child(5) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(10) .techs > li:nth-child(6) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(11) {
-  animation-delay: 3700ms;
+  animation-delay: 2400ms;
 }
 section#projects .container #projects-list > li:nth-child(11) .techs > li:nth-child(1) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(11) .techs > li:nth-child(2) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(11) .techs > li:nth-child(3) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(11) .techs > li:nth-child(4) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(11) .techs > li:nth-child(5) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(11) .techs > li:nth-child(6) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(12) {
-  animation-delay: 3900ms;
+  animation-delay: 2600ms;
 }
 section#projects .container #projects-list > li:nth-child(12) .techs > li:nth-child(1) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(12) .techs > li:nth-child(2) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(12) .techs > li:nth-child(3) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(12) .techs > li:nth-child(4) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(12) .techs > li:nth-child(5) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(12) .techs > li:nth-child(6) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(13) {
-  animation-delay: 4100ms;
+  animation-delay: 2800ms;
 }
 section#projects .container #projects-list > li:nth-child(13) .techs > li:nth-child(1) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(13) .techs > li:nth-child(2) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(13) .techs > li:nth-child(3) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(13) .techs > li:nth-child(4) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(13) .techs > li:nth-child(5) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(13) .techs > li:nth-child(6) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(14) {
-  animation-delay: 4300ms;
+  animation-delay: 3000ms;
 }
 section#projects .container #projects-list > li:nth-child(14) .techs > li:nth-child(1) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(14) .techs > li:nth-child(2) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(14) .techs > li:nth-child(3) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(14) .techs > li:nth-child(4) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(14) .techs > li:nth-child(5) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(14) .techs > li:nth-child(6) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(15) {
-  animation-delay: 4500ms;
+  animation-delay: 3200ms;
 }
 section#projects .container #projects-list > li:nth-child(15) .techs > li:nth-child(1) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(15) .techs > li:nth-child(2) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(15) .techs > li:nth-child(3) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(15) .techs > li:nth-child(4) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(15) .techs > li:nth-child(5) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(15) .techs > li:nth-child(6) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(16) {
-  animation-delay: 4700ms;
+  animation-delay: 3400ms;
 }
 section#projects .container #projects-list > li:nth-child(16) .techs > li:nth-child(1) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(16) .techs > li:nth-child(2) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(16) .techs > li:nth-child(3) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(16) .techs > li:nth-child(4) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(16) .techs > li:nth-child(5) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(16) .techs > li:nth-child(6) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(17) {
-  animation-delay: 4900ms;
+  animation-delay: 3600ms;
 }
 section#projects .container #projects-list > li:nth-child(17) .techs > li:nth-child(1) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(17) .techs > li:nth-child(2) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(17) .techs > li:nth-child(3) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(17) .techs > li:nth-child(4) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(17) .techs > li:nth-child(5) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(17) .techs > li:nth-child(6) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(18) {
-  animation-delay: 5100ms;
+  animation-delay: 3800ms;
 }
 section#projects .container #projects-list > li:nth-child(18) .techs > li:nth-child(1) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(18) .techs > li:nth-child(2) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(18) .techs > li:nth-child(3) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(18) .techs > li:nth-child(4) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(18) .techs > li:nth-child(5) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(18) .techs > li:nth-child(6) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(19) {
-  animation-delay: 5300ms;
+  animation-delay: 4000ms;
 }
 section#projects .container #projects-list > li:nth-child(19) .techs > li:nth-child(1) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(19) .techs > li:nth-child(2) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(19) .techs > li:nth-child(3) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(19) .techs > li:nth-child(4) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(19) .techs > li:nth-child(5) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(19) .techs > li:nth-child(6) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(20) {
-  animation-delay: 5500ms;
+  animation-delay: 4200ms;
 }
 section#projects .container #projects-list > li:nth-child(20) .techs > li:nth-child(1) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(20) .techs > li:nth-child(2) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(20) .techs > li:nth-child(3) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(20) .techs > li:nth-child(4) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(20) .techs > li:nth-child(5) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(20) .techs > li:nth-child(6) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(21) {
-  animation-delay: 5700ms;
+  animation-delay: 4400ms;
 }
 section#projects .container #projects-list > li:nth-child(21) .techs > li:nth-child(1) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(21) .techs > li:nth-child(2) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(21) .techs > li:nth-child(3) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(21) .techs > li:nth-child(4) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(21) .techs > li:nth-child(5) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(21) .techs > li:nth-child(6) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(22) {
-  animation-delay: 5900ms;
+  animation-delay: 4600ms;
 }
 section#projects .container #projects-list > li:nth-child(22) .techs > li:nth-child(1) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(22) .techs > li:nth-child(2) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(22) .techs > li:nth-child(3) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(22) .techs > li:nth-child(4) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(22) .techs > li:nth-child(5) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(22) .techs > li:nth-child(6) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(23) {
-  animation-delay: 6100ms;
+  animation-delay: 4800ms;
 }
 section#projects .container #projects-list > li:nth-child(23) .techs > li:nth-child(1) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(23) .techs > li:nth-child(2) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(23) .techs > li:nth-child(3) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(23) .techs > li:nth-child(4) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(23) .techs > li:nth-child(5) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(23) .techs > li:nth-child(6) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(24) {
-  animation-delay: 6300ms;
+  animation-delay: 5000ms;
 }
 section#projects .container #projects-list > li:nth-child(24) .techs > li:nth-child(1) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(24) .techs > li:nth-child(2) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(24) .techs > li:nth-child(3) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(24) .techs > li:nth-child(4) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(24) .techs > li:nth-child(5) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(24) .techs > li:nth-child(6) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(25) {
-  animation-delay: 6500ms;
+  animation-delay: 5200ms;
 }
 section#projects .container #projects-list > li:nth-child(25) .techs > li:nth-child(1) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(25) .techs > li:nth-child(2) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(25) .techs > li:nth-child(3) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(25) .techs > li:nth-child(4) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(25) .techs > li:nth-child(5) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(25) .techs > li:nth-child(6) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(26) {
-  animation-delay: 6700ms;
+  animation-delay: 5400ms;
 }
 section#projects .container #projects-list > li:nth-child(26) .techs > li:nth-child(1) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(26) .techs > li:nth-child(2) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(26) .techs > li:nth-child(3) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(26) .techs > li:nth-child(4) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(26) .techs > li:nth-child(5) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(26) .techs > li:nth-child(6) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(27) {
-  animation-delay: 6900ms;
+  animation-delay: 5600ms;
 }
 section#projects .container #projects-list > li:nth-child(27) .techs > li:nth-child(1) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(27) .techs > li:nth-child(2) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(27) .techs > li:nth-child(3) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(27) .techs > li:nth-child(4) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(27) .techs > li:nth-child(5) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(27) .techs > li:nth-child(6) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(28) {
-  animation-delay: 7100ms;
+  animation-delay: 5800ms;
 }
 section#projects .container #projects-list > li:nth-child(28) .techs > li:nth-child(1) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(28) .techs > li:nth-child(2) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(28) .techs > li:nth-child(3) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(28) .techs > li:nth-child(4) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(28) .techs > li:nth-child(5) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(28) .techs > li:nth-child(6) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(29) {
-  animation-delay: 7300ms;
+  animation-delay: 6000ms;
 }
 section#projects .container #projects-list > li:nth-child(29) .techs > li:nth-child(1) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(29) .techs > li:nth-child(2) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(29) .techs > li:nth-child(3) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(29) .techs > li:nth-child(4) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(29) .techs > li:nth-child(5) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(29) .techs > li:nth-child(6) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(30) {
-  animation-delay: 7500ms;
+  animation-delay: 6200ms;
 }
 section#projects .container #projects-list > li:nth-child(30) .techs > li:nth-child(1) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(30) .techs > li:nth-child(2) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(30) .techs > li:nth-child(3) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(30) .techs > li:nth-child(4) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(30) .techs > li:nth-child(5) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(30) .techs > li:nth-child(6) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(31) {
-  animation-delay: 7700ms;
+  animation-delay: 6400ms;
 }
 section#projects .container #projects-list > li:nth-child(31) .techs > li:nth-child(1) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(31) .techs > li:nth-child(2) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(31) .techs > li:nth-child(3) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(31) .techs > li:nth-child(4) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(31) .techs > li:nth-child(5) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(31) .techs > li:nth-child(6) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(32) {
-  animation-delay: 7900ms;
+  animation-delay: 6600ms;
 }
 section#projects .container #projects-list > li:nth-child(32) .techs > li:nth-child(1) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(32) .techs > li:nth-child(2) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(32) .techs > li:nth-child(3) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(32) .techs > li:nth-child(4) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(32) .techs > li:nth-child(5) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(32) .techs > li:nth-child(6) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(33) {
-  animation-delay: 8100ms;
+  animation-delay: 6800ms;
 }
 section#projects .container #projects-list > li:nth-child(33) .techs > li:nth-child(1) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(33) .techs > li:nth-child(2) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(33) .techs > li:nth-child(3) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(33) .techs > li:nth-child(4) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(33) .techs > li:nth-child(5) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(33) .techs > li:nth-child(6) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(34) {
-  animation-delay: 8300ms;
+  animation-delay: 7000ms;
 }
 section#projects .container #projects-list > li:nth-child(34) .techs > li:nth-child(1) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(34) .techs > li:nth-child(2) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(34) .techs > li:nth-child(3) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(34) .techs > li:nth-child(4) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(34) .techs > li:nth-child(5) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(34) .techs > li:nth-child(6) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(35) {
-  animation-delay: 8500ms;
+  animation-delay: 7200ms;
 }
 section#projects .container #projects-list > li:nth-child(35) .techs > li:nth-child(1) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(35) .techs > li:nth-child(2) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(35) .techs > li:nth-child(3) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(35) .techs > li:nth-child(4) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(35) .techs > li:nth-child(5) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(35) .techs > li:nth-child(6) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(36) {
-  animation-delay: 8700ms;
+  animation-delay: 7400ms;
 }
 section#projects .container #projects-list > li:nth-child(36) .techs > li:nth-child(1) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(36) .techs > li:nth-child(2) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(36) .techs > li:nth-child(3) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(36) .techs > li:nth-child(4) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(36) .techs > li:nth-child(5) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(36) .techs > li:nth-child(6) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(37) {
-  animation-delay: 8900ms;
+  animation-delay: 7600ms;
 }
 section#projects .container #projects-list > li:nth-child(37) .techs > li:nth-child(1) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(37) .techs > li:nth-child(2) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(37) .techs > li:nth-child(3) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(37) .techs > li:nth-child(4) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(37) .techs > li:nth-child(5) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(37) .techs > li:nth-child(6) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(38) {
-  animation-delay: 9100ms;
+  animation-delay: 7800ms;
 }
 section#projects .container #projects-list > li:nth-child(38) .techs > li:nth-child(1) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(38) .techs > li:nth-child(2) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(38) .techs > li:nth-child(3) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(38) .techs > li:nth-child(4) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(38) .techs > li:nth-child(5) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(38) .techs > li:nth-child(6) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(39) {
-  animation-delay: 9300ms;
+  animation-delay: 8000ms;
 }
 section#projects .container #projects-list > li:nth-child(39) .techs > li:nth-child(1) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(39) .techs > li:nth-child(2) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(39) .techs > li:nth-child(3) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(39) .techs > li:nth-child(4) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(39) .techs > li:nth-child(5) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(39) .techs > li:nth-child(6) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(40) {
-  animation-delay: 9500ms;
+  animation-delay: 8200ms;
 }
 section#projects .container #projects-list > li:nth-child(40) .techs > li:nth-child(1) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(40) .techs > li:nth-child(2) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(40) .techs > li:nth-child(3) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(40) .techs > li:nth-child(4) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(40) .techs > li:nth-child(5) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(40) .techs > li:nth-child(6) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(41) {
-  animation-delay: 9700ms;
+  animation-delay: 8400ms;
 }
 section#projects .container #projects-list > li:nth-child(41) .techs > li:nth-child(1) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(41) .techs > li:nth-child(2) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(41) .techs > li:nth-child(3) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(41) .techs > li:nth-child(4) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(41) .techs > li:nth-child(5) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(41) .techs > li:nth-child(6) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(42) {
-  animation-delay: 9900ms;
+  animation-delay: 8600ms;
 }
 section#projects .container #projects-list > li:nth-child(42) .techs > li:nth-child(1) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(42) .techs > li:nth-child(2) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(42) .techs > li:nth-child(3) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(42) .techs > li:nth-child(4) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(42) .techs > li:nth-child(5) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(42) .techs > li:nth-child(6) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(43) {
-  animation-delay: 10100ms;
+  animation-delay: 8800ms;
 }
 section#projects .container #projects-list > li:nth-child(43) .techs > li:nth-child(1) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(43) .techs > li:nth-child(2) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(43) .techs > li:nth-child(3) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(43) .techs > li:nth-child(4) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(43) .techs > li:nth-child(5) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(43) .techs > li:nth-child(6) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(44) {
-  animation-delay: 10300ms;
+  animation-delay: 9000ms;
 }
 section#projects .container #projects-list > li:nth-child(44) .techs > li:nth-child(1) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(44) .techs > li:nth-child(2) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(44) .techs > li:nth-child(3) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(44) .techs > li:nth-child(4) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(44) .techs > li:nth-child(5) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(44) .techs > li:nth-child(6) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(45) {
-  animation-delay: 10500ms;
+  animation-delay: 9200ms;
 }
 section#projects .container #projects-list > li:nth-child(45) .techs > li:nth-child(1) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(45) .techs > li:nth-child(2) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(45) .techs > li:nth-child(3) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(45) .techs > li:nth-child(4) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(45) .techs > li:nth-child(5) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(45) .techs > li:nth-child(6) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(46) {
-  animation-delay: 10700ms;
+  animation-delay: 9400ms;
 }
 section#projects .container #projects-list > li:nth-child(46) .techs > li:nth-child(1) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(46) .techs > li:nth-child(2) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(46) .techs > li:nth-child(3) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(46) .techs > li:nth-child(4) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(46) .techs > li:nth-child(5) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(46) .techs > li:nth-child(6) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(47) {
-  animation-delay: 10900ms;
+  animation-delay: 9600ms;
 }
 section#projects .container #projects-list > li:nth-child(47) .techs > li:nth-child(1) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(47) .techs > li:nth-child(2) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(47) .techs > li:nth-child(3) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(47) .techs > li:nth-child(4) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(47) .techs > li:nth-child(5) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(47) .techs > li:nth-child(6) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(48) {
-  animation-delay: 11100ms;
+  animation-delay: 9800ms;
 }
 section#projects .container #projects-list > li:nth-child(48) .techs > li:nth-child(1) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(48) .techs > li:nth-child(2) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(48) .techs > li:nth-child(3) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(48) .techs > li:nth-child(4) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(48) .techs > li:nth-child(5) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(48) .techs > li:nth-child(6) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(49) {
-  animation-delay: 11300ms;
+  animation-delay: 10000ms;
 }
 section#projects .container #projects-list > li:nth-child(49) .techs > li:nth-child(1) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(49) .techs > li:nth-child(2) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(49) .techs > li:nth-child(3) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(49) .techs > li:nth-child(4) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(49) .techs > li:nth-child(5) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(49) .techs > li:nth-child(6) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(50) {
-  animation-delay: 11500ms;
+  animation-delay: 10200ms;
 }
 section#projects .container #projects-list > li:nth-child(50) .techs > li:nth-child(1) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(50) .techs > li:nth-child(2) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(50) .techs > li:nth-child(3) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(50) .techs > li:nth-child(4) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(50) .techs > li:nth-child(5) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(50) .techs > li:nth-child(6) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(51) {
-  animation-delay: 11700ms;
+  animation-delay: 10400ms;
 }
 section#projects .container #projects-list > li:nth-child(51) .techs > li:nth-child(1) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(51) .techs > li:nth-child(2) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(51) .techs > li:nth-child(3) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(51) .techs > li:nth-child(4) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(51) .techs > li:nth-child(5) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(51) .techs > li:nth-child(6) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(52) {
-  animation-delay: 11900ms;
+  animation-delay: 10600ms;
 }
 section#projects .container #projects-list > li:nth-child(52) .techs > li:nth-child(1) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(52) .techs > li:nth-child(2) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(52) .techs > li:nth-child(3) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(52) .techs > li:nth-child(4) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(52) .techs > li:nth-child(5) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(52) .techs > li:nth-child(6) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(53) {
-  animation-delay: 12100ms;
+  animation-delay: 10800ms;
 }
 section#projects .container #projects-list > li:nth-child(53) .techs > li:nth-child(1) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(53) .techs > li:nth-child(2) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(53) .techs > li:nth-child(3) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(53) .techs > li:nth-child(4) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(53) .techs > li:nth-child(5) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(53) .techs > li:nth-child(6) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(54) {
-  animation-delay: 12300ms;
+  animation-delay: 11000ms;
 }
 section#projects .container #projects-list > li:nth-child(54) .techs > li:nth-child(1) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(54) .techs > li:nth-child(2) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(54) .techs > li:nth-child(3) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(54) .techs > li:nth-child(4) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(54) .techs > li:nth-child(5) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(54) .techs > li:nth-child(6) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(55) {
-  animation-delay: 12500ms;
+  animation-delay: 11200ms;
 }
 section#projects .container #projects-list > li:nth-child(55) .techs > li:nth-child(1) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(55) .techs > li:nth-child(2) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(55) .techs > li:nth-child(3) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(55) .techs > li:nth-child(4) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(55) .techs > li:nth-child(5) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(55) .techs > li:nth-child(6) {
-  animation-delay: 13700ms;
+  animation-delay: 12400ms;
 }
 section#projects .container #projects-list > li:nth-child(56) {
-  animation-delay: 12700ms;
+  animation-delay: 11400ms;
 }
 section#projects .container #projects-list > li:nth-child(56) .techs > li:nth-child(1) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(56) .techs > li:nth-child(2) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(56) .techs > li:nth-child(3) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(56) .techs > li:nth-child(4) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(56) .techs > li:nth-child(5) {
-  animation-delay: 13700ms;
+  animation-delay: 12400ms;
 }
 section#projects .container #projects-list > li:nth-child(56) .techs > li:nth-child(6) {
-  animation-delay: 13900ms;
+  animation-delay: 12600ms;
 }
 section#projects .container #projects-list > li:nth-child(57) {
-  animation-delay: 12900ms;
+  animation-delay: 11600ms;
 }
 section#projects .container #projects-list > li:nth-child(57) .techs > li:nth-child(1) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(57) .techs > li:nth-child(2) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(57) .techs > li:nth-child(3) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(57) .techs > li:nth-child(4) {
-  animation-delay: 13700ms;
+  animation-delay: 12400ms;
 }
 section#projects .container #projects-list > li:nth-child(57) .techs > li:nth-child(5) {
-  animation-delay: 13900ms;
+  animation-delay: 12600ms;
 }
 section#projects .container #projects-list > li:nth-child(57) .techs > li:nth-child(6) {
-  animation-delay: 14100ms;
+  animation-delay: 12800ms;
 }
 section#projects .container #projects-list > li:nth-child(58) {
-  animation-delay: 13100ms;
+  animation-delay: 11800ms;
 }
 section#projects .container #projects-list > li:nth-child(58) .techs > li:nth-child(1) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(58) .techs > li:nth-child(2) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(58) .techs > li:nth-child(3) {
-  animation-delay: 13700ms;
+  animation-delay: 12400ms;
 }
 section#projects .container #projects-list > li:nth-child(58) .techs > li:nth-child(4) {
-  animation-delay: 13900ms;
+  animation-delay: 12600ms;
 }
 section#projects .container #projects-list > li:nth-child(58) .techs > li:nth-child(5) {
-  animation-delay: 14100ms;
+  animation-delay: 12800ms;
 }
 section#projects .container #projects-list > li:nth-child(58) .techs > li:nth-child(6) {
-  animation-delay: 14300ms;
+  animation-delay: 13000ms;
 }
 section#projects .container #projects-list > li:nth-child(59) {
-  animation-delay: 13300ms;
+  animation-delay: 12000ms;
 }
 section#projects .container #projects-list > li:nth-child(59) .techs > li:nth-child(1) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(59) .techs > li:nth-child(2) {
-  animation-delay: 13700ms;
+  animation-delay: 12400ms;
 }
 section#projects .container #projects-list > li:nth-child(59) .techs > li:nth-child(3) {
-  animation-delay: 13900ms;
+  animation-delay: 12600ms;
 }
 section#projects .container #projects-list > li:nth-child(59) .techs > li:nth-child(4) {
-  animation-delay: 14100ms;
+  animation-delay: 12800ms;
 }
 section#projects .container #projects-list > li:nth-child(59) .techs > li:nth-child(5) {
-  animation-delay: 14300ms;
+  animation-delay: 13000ms;
 }
 section#projects .container #projects-list > li:nth-child(59) .techs > li:nth-child(6) {
-  animation-delay: 14500ms;
+  animation-delay: 13200ms;
 }
 section#projects .container #projects-list > li:nth-child(60) {
-  animation-delay: 13500ms;
+  animation-delay: 12200ms;
 }
 section#projects .container #projects-list > li:nth-child(60) .techs > li:nth-child(1) {
-  animation-delay: 13700ms;
+  animation-delay: 12400ms;
 }
 section#projects .container #projects-list > li:nth-child(60) .techs > li:nth-child(2) {
-  animation-delay: 13900ms;
+  animation-delay: 12600ms;
 }
 section#projects .container #projects-list > li:nth-child(60) .techs > li:nth-child(3) {
-  animation-delay: 14100ms;
+  animation-delay: 12800ms;
 }
 section#projects .container #projects-list > li:nth-child(60) .techs > li:nth-child(4) {
-  animation-delay: 14300ms;
+  animation-delay: 13000ms;
 }
 section#projects .container #projects-list > li:nth-child(60) .techs > li:nth-child(5) {
-  animation-delay: 14500ms;
+  animation-delay: 13200ms;
 }
 section#projects .container #projects-list > li:nth-child(60) .techs > li:nth-child(6) {
-  animation-delay: 14700ms;
+  animation-delay: 13400ms;
 }
 section#projects .container #projects-list > li {
   flex-shrink: 0;

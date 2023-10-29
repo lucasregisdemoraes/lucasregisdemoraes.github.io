@@ -1,22 +1,40 @@
 import projects from "../../projects-list.js";
+projects.sort((a, b) => a.title > b.title ? 1 : b.title > a.title ? -1 : 0)
 
 const listElement = document.getElementById("projects-list")
 const currentProjectsNumberElement = document.getElementById("current-projects-number")
 const totalProjectsNumberElement = document.getElementById("total-projects-number")
+const filterByElement = document.getElementById("filterBy")
+const techElements = document.getElementsByName("tech")
 
 function loadApp() {
+    let projects = getFilteredProjects(filterByElement.value)
+    projects = getFilteredProjectsByTechs(projects)
     renderProjects(projects, listElement)
     updateProjectsNumber(projects.length, projects.length)
 }
 
+function getFilteredProjects(filterValue) {
+    return filterValue === "Todos" ? projects
+        :
+        projects.filter(project =>
+            project.filterBy.find(item => item.name == filterValue)
+        )
+}
 
+function getFilteredProjectsByTechs(projects) {
+    const activeTechs = []
 
-// Criar função para filtrar por tipo de projeto
+    techElements.forEach(tech => {
+        if (tech.checked) {
+            activeTechs.push(tech.value)
+        }
+    })
 
-// Criar função para filtrar por tecnologia usada
-
-
-
+    return projects.filter(project => project.techs
+        .find(tech => activeTechs
+            .find(activeTech => tech.toLowerCase() === activeTech)))
+}
 
 function updateProjectsNumber(currentProjectsNumber, totalProjectsNumber) {
     currentProjectsNumberElement.textContent = currentProjectsNumber
@@ -61,5 +79,11 @@ function renderProjects(projects, listElement) {
         listElement.appendChild(li)
     })
 }
+
+filterByElement.onchange = loadApp
+
+techElements.forEach(el => {
+    el.onchange = loadApp
+})
 
 loadApp()

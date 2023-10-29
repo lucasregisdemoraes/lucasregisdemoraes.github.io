@@ -61,7 +61,7 @@ section#projects {
 
             @for $i from 1 through $items {
                 &>li:nth-child(#{$i}) {
-                    $delay: $i * 200ms+1.5s;
+                    $delay: $i * 200ms+0.2s;
                     animation-delay: $delay;
 
                     $items: 6;

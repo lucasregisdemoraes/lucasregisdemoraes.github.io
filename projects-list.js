@@ -3,28 +3,14 @@ export default [
     title: "Blogr",
     description: "Landing Page de uma plataforma de publicação",
     link: "https://lucasregisdemoraes.github.io/blogr/",
+    githubLink: "https://github.com/lucasregisdemoraes/blogr",
     previewImage: "../../assets/preview/blogr.png",
-    filterBy: ["Inspirado"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/blogr/",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link: "https://github.com/lucasregisdemoraes/blogr",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        link: "https://www.frontendmentor.io/",
-        abbrTitle: "Baseado em um projeto do Frontend Mentor",
-        abbrContent: "Frontend Mentor"
-      },
-      {
-        abbrTitle: "Utilizado HTML, CSS e JS",
-        abbrContent: "HTML, CSS e JS"
+        name: "Inspirado",
+        description: "Frontend Mentor",
+        link: "https://www.frontendmentor.io/"
       }
     ]
   },
@@ -32,45 +18,30 @@ export default [
     title: "DevChallenge",
     description: "Desafios do DevChallenge concluídos por mim",
     link: "https://lucasregisdemoraes.github.io/devchallenge",
+    githubLink: "https://github.com/lucasregisdemoraes/devchallenge",
     previewImage: "../../assets/preview/devchallenge.png",
-    filterBy: ["Inspirado", "Coleção"],
-    techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/devchallenge",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
+        name: "Inspirado",
+        description: "DevChallenge",
+        link: "https://www.devchallenge.com.br"
       },
       {
-        link: "https://github.com/lucasregisdemoraes/devchallenge",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        link: "https://www.devchallenge.com.br",
-        abbrTitle: "Baseado em projetos do DevChallenge",
-        abbrContent: "DevChallenge"
+        name: "Coleção"
       }
-    ]
+    ],
+    techs: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Kenziegram",
     description: "Clone do Instagram",
     link: "https://lucasregisdemoraes.github.io/kenziegram/",
+    githubLink: "https://github.com/lucasregisdemoraes/kenziegram",
     previewImage: "../../assets/preview/kenziegram.png",
     filterBy: ["Inspirado", "Evento"],
     techs: ["HTML", "CSS", "JavaScript"],
     tags: [
-      {
-        link: "https://lucasregisdemoraes.github.io/kenziegram/",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link: "https://github.com/lucasregisdemoraes/kenziegram",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
+
       {
         abbrTitle: "Baseado em um evento da Kenzie Academy",
         abbrContent: "Kenzie Academy"
