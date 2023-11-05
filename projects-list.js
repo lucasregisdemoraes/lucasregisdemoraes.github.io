@@ -20,17 +20,19 @@ export default [
     link: "https://lucasregisdemoraes.github.io/devchallenge",
     githubLink: "https://github.com/lucasregisdemoraes/devchallenge",
     previewImage: "../../assets/preview/devchallenge.png",
+    techs: ["HTML", "CSS", "JavaScript"],
     filterBy: [
       {
         name: "Inspirado",
-        description: "DevChallenge",
+        description: "Inspirado em projetos do site DevChallenge",
         link: "https://www.devchallenge.com.br"
       },
       {
-        name: "Coleção"
-      }
-    ],
-    techs: ["HTML", "CSS", "JavaScript"],
+        name: "Coleção",
+        description: "Coleção de projetos do site DevChallenge",
+        link: "https://www.devchallenge.com.br"
+      },
+    ]
   },
   {
     title: "Kenziegram",
@@ -174,7 +176,7 @@ export default [
     link: "https://aluratube-gamma-nine.vercel.app/",
     previewImage: "../../assets/preview/aluratube.png",
     filterBy: ["Inspirado", "Evento", "React"],
-    techs: ["HTML", "CSS", "JavaScript"],
+    techs: ["HTML", "CSS", "JavaScript", "React"],
     tags: [
       {
         link: "https://lucasregisdemoraes.github.io/aluratube",
@@ -222,7 +224,7 @@ export default [
     link: "https://lucasregisdemoraes.github.io/pages/projects",
     previewImage: "../../assets/preview/default.png",
     filterBy: ["Projeto Próprio", "React Native"],
-    techs: ["HTML", "CSS", "JavaScript"],
+    techs: ["HTML", "CSS", "JavaScript", "React Native"],
     tags: [
       {
         link: "https://github.com/lucasregisdemoraes/stock-manager",
@@ -241,7 +243,7 @@ export default [
     link: "https://lucasregisdemoraes.github.io/pages/projects",
     previewImage: "../../assets/preview/default.png",
     filterBy: ["Inspirado", "React Native"],
-    techs: ["HTML", "CSS", "JavaScript"],
+    techs: ["HTML", "CSS", "JavaScript", "React Native"],
     tags: [
       {
         link: "https://github.com/lucasregisdemoraes/to-do-list",
@@ -256,11 +258,11 @@ export default [
   },
   {
     title: "Calculadora",
-    description: "Uma calculadora com dark mode ",
+    description: "Uma calculadora com dark mode desenvolvida com React Native",
     link: "https://lucasregisdemoraes.github.io/pages/projects",
     previewImage: "../../assets/preview/default.png",
     filterBy: ["Inspirado", "React Native"],
-    techs: ["HTML", "CSS", "JavaScript"],
+    techs: ["HTML", "CSS", "JavaScript", "React Native"],
     tags: [
       {
         link: "https://github.com/lucasregisdemoraes/calculator",
@@ -277,24 +279,25 @@ export default [
     title: "7 projetos em 7 dias",
     description: 'Projetos do evento "7 projetos em 7 dias"',
     link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
+    githubLink: "https://github.com/lucasregisdemoraes/7-projetos-em-7-dias",
     previewImage: "../../assets/preview/7-projetos-em-7-dias.png",
-    filterBy: ["Inspirado", "Coleção", "Evento"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/7-projetos-em-7-dias",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
+        name: "Inspirado",
+        description: "Inspirado em projetos feitos pelo Bonieky",
+        link: "https://www.youtube.com/user/bonieky"
       },
       {
-        link: "https://github.com/lucasregisdemoraes/7-projetos-em-7-dias",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
+        name: "Coleção",
+        description: "Coleção de projetos inspirados pelo Bonieky",
+        link: "https://www.youtube.com/user/bonieky"
       },
       {
-        abbrTitle: "Baseado em um evento do Bonieky Lacerda ",
-        abbrContent: "Bonieky Lacerda "
-      }
+        name: "Evento",
+        description: "Inspirado em um evento realizado pelo Bonieky",
+        link: "https://www.youtube.com/user/bonieky"
+      },
     ]
   },
   {
@@ -519,7 +522,7 @@ export default [
     link: "https://lucasregisdemoraes.github.io",
     previewImage: "../../assets/preview/minha-pagina.png",
     filterBy: ["Projeto Próprio"],
-    techs: ["HTML", "CSS", "JavaScript"],
+    techs: ["HTML", "CSS", "Sass", "JavaScript"],
     tags: [
       {
         link: "https://lucasregisdemoraes.github.io",
@@ -710,71 +713,45 @@ export default [
     description: "Desafios do #boraCodar concluídos por mim",
     link: "https://lucasregisdemoraes.github.io/boracodar",
     previewImage: "../../assets/preview/boracodar.png",
-    filterBy: ["Inspirado", "Coleção"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/boracodar",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       },
       {
-        link: "https://github.com/lucasregisdemoraes/boracodar",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        link: "https://boracodar.dev",
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Coleção",
+        description: "Coleção de projeots inspirados nos desafios do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
     title: "Conversor de Moedas (BoraCodar)",
-    description: "Página para converter moedas",
+    description: "Uma página para converter moedas",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/conversor-de-moedas",
     previewImage: "../../assets/preview/conversor-de-moedas(boracodar).png",
-    filterBy: ["Inspirado"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/boracodar/challenges/conversor-de-moedas",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/conversor-de-moedas",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
     title: "KanBan (BoraCodar)",
-    description: "Página de KanKan",
+    description: "Uma página de KanKan",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/kanban",
     previewImage: "../../assets/preview/kanban(boracodar).png",
-    filterBy: ["Inspirado"],
-    techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    techs: ["HTML", "CSS"],
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/boracodar/challenges/kanban",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/kanban",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
@@ -783,181 +760,101 @@ export default [
     description: "Página de clima",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-de-clima",
     previewImage: "../../assets/preview/pagina-de-clima(boracodar).png",
-    filterBy: ["Inspirado"],
-    techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    techs: ["HTML", "CSS"],
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-de-clima",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/pagina-de-clima",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
     title: "Tela de Login (BoraCodar)",
-    description: "Tela de login",
+    description: "Uma tela de login",
     link: "https://lucasregisdemoraes.github.io/boracodar/challenges/tela-de-login",
     previewImage: "../../assets/preview/tela-de-login(boracodar).png",
-    filterBy: ["Inspirado"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/boracodar/challenges/tela-de-login",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/tela-de-login",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
-    title: "Formulário de Cartão (boraCodar)",
-    description: "Formulário de Cartão",
+    title: "Formulário de Cartão (BoraCodar)",
+    description: "Um formulário de cartão com animação ao se passar o mouse em cima do cartão",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/formulario-de-cartao",
     previewImage: "../../assets/preview/formulario-de-cartao(boracodar).png",
-    filterBy: ["Inspirado"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link:
-          "https://lucasregisdemoraes.github.io/boracodar/challenges/formulario-de-cartao",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link:
-          "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/formulario-de-cartao",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
-    title: "Componente de Upload (boraCodar)",
-    description: "Componente de Upload",
+    title: "Componente de Upload (BoraCodar)",
+    description: "Um componente de Upload",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/componente-de-upload",
     previewImage: "../../assets/preview/componente-de-upload(boracodar).png",
-    filterBy: ["Inspirado"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link:
-          "https://lucasregisdemoraes.github.io/boracodar/challenges/componente-de-upload",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link:
-          "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/componente-de-upload",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
     title: "Pricing Table (BoraCodar)",
-    description: "Tabela para assinatura de planos",
+    description: "Uma página de uma tabela para assinatura de planos",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/pricing-table",
     previewImage: "../../assets/preview/pricing-table(boracodar).png",
-    filterBy: ["Inspirado"],
-    techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    techs: ["HTML", "CSS"],
+    filterBy: [
       {
-        link:
-          "https://lucasregisdemoraes.github.io/boracodar/challenges/pricing-table",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link:
-          "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/pricing-table",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
     title: "Página de Contatos (BoraCodar)",
-    description: "Página de Contatos",
+    description: "Uma página de Contatos",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-de-contatos",
     previewImage: "../../assets/preview/pagina-de-contatos(boracodar).png",
-    filterBy: ["Inspirado"],
-    techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    techs: ["HTML", "CSS"],
+    filterBy: [
       {
-        link:
-          "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-de-contatos",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link:
-          "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/pagina-de-contatos",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
   {
     title: "Date Picker (BoraCodar)",
-    description: "Seletor de data",
+    description: "Seletor de data, com seleção por dia ou mês",
     link:
       "https://lucasregisdemoraes.github.io/boracodar/challenges/date-picker",
     previewImage: "../../assets/preview/date-picker(boracodar).png",
-    filterBy: ["Inspirado"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link:
-          "https://lucasregisdemoraes.github.io/boracodar/challenges/date-picker",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
-      },
-      {
-        link:
-          "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/date-picker",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em desafios do #boraCodar",
-        abbrContent: "Rocketseat"
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
       }
     ]
   },
@@ -968,7 +865,7 @@ export default [
       "https://alurakut-seven-ashy.vercel.app/",
     previewImage: "../../assets/preview/alurakut.png",
     filterBy: ["Inspirado", "Evento", "React"],
-    techs: ["HTML", "CSS", "JavaScript"],
+    techs: ["HTML", "CSS", "JavaScript", "React"],
     tags: [
       {
         link:
@@ -993,23 +890,284 @@ export default [
     description: "Um gerenciador de hábitos",
     link: "https://lucasregisdemoraes.github.io/habits",
     previewImage: "../../assets/preview/habits.png",
-    filterBy: ["Inspirado", "Evento"],
     techs: ["HTML", "CSS", "JavaScript"],
-    tags: [
+    filterBy: [
       {
-        link: "https://lucasregisdemoraes.github.io/habits",
-        abbrTitle: "Página na internet",
-        abbrContent: "Página"
+        name: "Inspirado",
+        description: "Inspirado em um NLW da Rocketseat",
+        link: "https://www.rocketseat.com.br/"
       },
       {
-        link: "https://github.com/lucasregisdemoraes/habits",
-        abbrTitle: "Página do projeto no GitHub",
-        abbrContent: "GitHub"
-      },
-      {
-        abbrTitle: "Baseado em um evento da Rocketseat",
-        abbrContent: "Rocketseat"
+        name: "Evento",
+        description: "Inspirado em um NLW da Rocketseat",
+        link: "https://www.rocketseat.com.br/"
       }
     ]
-  }
+  },
+  {
+    title: "Card de personagem (BoraCodar)",
+    description: "Um card de personagem com efeito 3D",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/card-de-personagem",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/card-de-personagem",
+    previewImage: "../../assets/preview/card-de-personagem(boracodar).png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Widget de Transporte (BoraCodar)",
+    description: "Um Widget de Transporte",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/widget-de-transporte",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/widget-de-transporte",
+    previewImage: "../../assets/preview/widget-de-transporte(boracodar).png",
+    techs: ["HTML", "CSS"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Galeria com Hover (BoraCodar)",
+    description: "Uma galeria de imagens com um efeito ao se passar o mouse por cima das imagens",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/galeria-com-hover",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/galeria-com-hover",
+    previewImage: "../../assets/preview/galeria-com-hover(boracodar).png",
+    techs: ["HTML", "CSS", "Sass"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Carrinho de Compras (BoraCodar)",
+    description: "Um Carrinho de compras",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/carrinho-de-compras",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/carrinho-de-compras",
+    previewImage: "../../assets/preview/carrinho-de-compras(boracodar).png",
+    techs: ["HTML", "CSS", "Sass"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Profile Settings (BoraCodar)",
+    description: "Um menu onde mostra as configurações de usuário",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/profile-settings",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/profile-settings",
+    previewImage: "../../assets/preview/profile-settings(boracodar).png",
+    techs: ["HTML", "CSS", "Sass"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Formulário Multi Step (BoraCodar)",
+    description: "Um formulário com 3 passos e uma transição animada entre os passos",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/formulario-multi-step",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/formulario-multi-step",
+    previewImage: "../../assets/preview/formulario-multi-step(boracodar).png",
+    techs: ["HTML", "CSS", "Sass", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Player de VR (BoraCodar)",
+    description: "Um player de video em que o fundo do vídeo é relacionado ao vídeo",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/player-de-vr",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/player-de-vr",
+    previewImage: "../../assets/preview/player-de-vr(boracodar).png",
+    techs: ["HTML", "CSS", "Sass", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Página 404 (BoraCodar)",
+    description: "Uma página customizada para quando a página solicitada não é encontrada",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/pagina-404",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/pagina-404",
+    previewImage: "../../assets/preview/pagina-404(boracodar).png",
+    techs: ["HTML", "CSS", "Sass"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Plataforma de IA (BoraCodar)",
+    description: "Uma página que lista possibilidades para inteligência artificial",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/plataforma-de-ia",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/plataforma-de-ia",
+    previewImage: "../../assets/preview/plataforma-de-ia(boracodar).png",
+    techs: ["HTML", "CSS", "Sass"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Antes e depois com IA (BoraCodar)",
+    description: "Uma amostra de como seria uma imagem antes e depois de melhorada com inteligência artificial",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/antes-e-depois-com-ia",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/antes-e-depois-com-ia",
+    previewImage: "../../assets/preview/antes-e-depois-com-ia(boracodar).png",
+    techs: ["HTML", "CSS", "Sass"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Recomendação de filmes com IA (BoraCodar)",
+    description: "Uma página que sugere 3 filmes aliatórios usando uma API",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/recomendacao-de-filmes-com-ia",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/recomendacao-de-filmes-com-ia",
+    previewImage: "../../assets/preview/recomendacao-de-filmes-com-ia(boracodar).png",
+    techs: ["HTML", "CSS", "Sass", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Transcrição de vídeo com IA (BoraCodar)",
+    description: "Uma página que transcreve um vídeo no formato Shorts do Youtube atravez do link informado",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/transcricao-de-video-com-ia",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/transcricao-de-video-com-ia",
+    previewImage: "../../assets/preview/transcricao-de-video-com-ia(boracodar).png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "App de tradução de SQL com IA (BoraCodar)",
+    description: "Uma página que responde perguntas sobre o código SQL informado",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/app-de-traducao-de-sql-com-ia",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/app-de-traducao-de-sql-com-ia",
+    previewImage: "../../assets/preview/app-de-traducao-de-sql-com-ia(boracodar).png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Gerador-de-ticket (BoraCodar)",
+    description: "Um Gerador de ticket, em que é inserido o nome de usuário do GitHub e através de sua API é gerado um ticket customizado",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/gerador-de-ticket",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/gerador-de-ticket",
+    previewImage: "../../assets/preview/gerador-de-ticket(boracodar).png",
+    techs: ["HTML", "CSS", "Sass", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um desafio do BoraCodar (Rocketseat)",
+        link: "https://boracodar.dev"
+      }
+    ]
+  },
+  {
+    title: "Magazine Hashtag",
+    description: "Um site para venda de roupas, com carrinho e histórico de compras",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/magazine-hashtag",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/magazine-hashtag",
+    previewImage: "../../assets/preview/magazine-hashtag.png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um evento da Hashtag Treinamentos",
+        link: "https://www.hashtagtreinamentos.com/"
+      },
+      {
+        name: "Evento",
+        description: "Inspirado em um evento da hashtag Treinamentos",
+        link: "https://www.hashtagtreinamentos.com/"
+      }
+    ]
+  },
+  {
+    title: "One Piece",
+    description: "Um página que mostra alguns personagens do anime One Piece com música de fundo",
+    link:
+      "https://lucasregisdemoraes.github.io/boracodar/challenges/one-piece",
+    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/one-piece",
+    previewImage: "../../assets/preview/one-piece.png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    filterBy: [
+      {
+        name: "Inspirado",
+        description: "Inspirado em um evento do canal DevEmDobro",
+        link: "https://devemdobro.com"
+      },
+      {
+        name: "Evento",
+        description: "Inspirado em um evento do canal DevEmDobro",
+        link: "https://devemdobro.com"
+      }
+    ]
+  },
 ]
