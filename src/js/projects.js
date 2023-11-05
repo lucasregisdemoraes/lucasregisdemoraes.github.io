@@ -33,7 +33,7 @@ function getFilteredProjectsByTechs(projects) {
 
     return projects.filter(project => project.techs
         .find(tech => activeTechs
-            .find(activeTech => tech.toLowerCase() === activeTech)))
+            .find(activeTech => tech.toLowerCase().replace(" ", "-") === activeTech)))
 }
 
 function updateProjectsNumber(currentProjectsNumber, totalProjectsNumber) {
