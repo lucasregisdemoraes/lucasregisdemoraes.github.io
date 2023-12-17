@@ -1153,8 +1153,8 @@ export default [
     title: "One Piece",
     description: "Um página que mostra alguns personagens do anime One Piece com música de fundo",
     link:
-      "https://lucasregisdemoraes.github.io/boracodar/challenges/one-piece",
-    githubLink: "https://github.com/lucasregisdemoraes/boracodar/tree/main/challenges/one-piece",
+      "https://lucasregisdemoraes.github.io/one-piece",
+    githubLink: "https://github.com/lucasregisdemoraes/one-piece",
     previewImage: "../../assets/preview/one-piece.png",
     techs: ["HTML", "CSS", "JavaScript"],
     filterBy: [
