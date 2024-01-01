@@ -138,6 +138,7 @@ main {
 
     section#about {
         position: relative;
+        overflow-x: hidden;
 
         &::before {
             content: "";

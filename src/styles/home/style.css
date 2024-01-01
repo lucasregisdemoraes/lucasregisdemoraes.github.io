@@ -118,6 +118,7 @@ main section#home .container .arrow-down {
 }
 main section#about {
   position: relative;
+  overflow-x: hidden;
 }
 main section#about::before {
   content: "";
