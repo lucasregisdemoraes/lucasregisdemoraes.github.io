@@ -1,0 +1,29 @@
+.stars-animation {
+    position: relative;
+    overflow: hidden;
+
+    @keyframes star-movement {
+        to {
+            top: var(--top);
+            right: var(--right);
+            height: 10px;
+            width: 10px;
+            opacity: 1;
+        }
+    }
+
+    .star {
+        --top: 105%;
+        --right: 105%;
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 3px;
+        opacity: 0;
+
+        top: 50%;
+        right: 50%;
+        border-radius: 999px;
+        animation: star-movement 4s;
+    }
+}
