@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 20px 0;
+  background-color: black;
+  z-index: 1;
+  box-shadow: black 0px 0px 20px 5px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: filter 0.3s;
+}
+header .container a:hover {
+  filter: opacity(0.5);
+  text-decoration: underline;
+}
+header .container h2 {
+  font-size: 26px;
+}
+header .container ul {
+  display: flex;
+  gap: 16px;
+}
+header .container ul li {
+  font-size: 18px;
+}
+
+@media (max-width: 420px) {
+  header .container h2 {
+    font-size: 20px;
+  }
+  header .container ul {
+    gap: 6px;
+  }
+  header .container ul li {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=styles.css.map */
