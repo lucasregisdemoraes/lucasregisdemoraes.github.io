@@ -6,6 +6,14 @@ header {
     background-color: black;
     z-index: 1;
     box-shadow: black 0px 0px 20px 5px;
+    animation: appear 1s backwards 1s;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+    }
 
     .container {
         display: flex;
